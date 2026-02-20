@@ -1,0 +1,1061 @@
+[202월2026 15:07:13.384] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.4.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[202월2026 15:07:13.391] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.10 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[202월2026 15:07:14.993] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[202월2026 15:07:15.001] [main/INFO] [settingdust.lazyyyyy.forge.core.LazyyyyyHacksInjector/]: Constructing
+[202월2026 15:07:15.003] [main/INFO] [settingdust.lazyyyyy.forge.core.LazyyyyyHacksInjector/]: Injecting bootstrap
+[202월2026 15:07:15.075] [main/INFO] [settingdust.lazyyyyy.forge.core.LazyyyyyHacksInjector/]: Transforming Resolver#makeGraph
+[202월2026 15:07:15.123] [main/INFO] [settingdust.lazyyyyy.forge.core.LazyyyyyHacksInjector/]: Injecting mc bootstrap
+[202월2026 15:07:15.215] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[202월2026 15:07:15.300] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[202월2026 15:07:15.397] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[202월2026 15:07:15.503] [main/INFO] [settingdust.lazyyyyy.forge.core.LazyyyyyHacksInjector/]: Initializing
+[202월2026 15:07:15.628] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/USER/Documents/GitHub/newone/mods/Connector-1.0.0-beta.47+1.20.1.jar%23334%23340!/ Service=ModLauncher Env=SERVER
+[202월2026 15:07:17.078] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\USER\Documents\GitHub\newone\libraries\net\minecraftforge\fmlcore\1.20.1-47.4.0\fmlcore-1.20.1-47.4.0.jar is missing mods.toml file
+[202월2026 15:07:17.082] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\USER\Documents\GitHub\newone\libraries\net\minecraftforge\javafmllanguage\1.20.1-47.4.0\javafmllanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[202월2026 15:07:17.085] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\USER\Documents\GitHub\newone\libraries\net\minecraftforge\lowcodelanguage\1.20.1-47.4.0\lowcodelanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[202월2026 15:07:17.088] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\USER\Documents\GitHub\newone\libraries\net\minecraftforge\mclanguage\1.20.1-47.4.0\mclanguage-1.20.1-47.4.0.jar is missing mods.toml file
+[202월2026 15:07:18.375] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: fabric_api. Using Mod File: C:\Users\USER\Documents\GitHub\newone\mods\fabric-api-0.92.6+1.11.14+1.20.1.jar
+[202월2026 15:07:18.377] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: expandability. Using Mod File: C:\Users\USER\Documents\GitHub\newone\mods\expandability-9.0.4.jar
+[202월2026 15:07:18.377] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 83 dependencies adding them to mods collection
+[202월2026 15:07:19.655] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 1 candidates to load
+[202월2026 15:07:21.191] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[202월2026 15:07:23.231] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[202월2026 15:07:23.493] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[202월2026 15:07:23.521] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[202월2026 15:07:23.543] [main/INFO] [com.abdelaziz.saturn.common.Saturn/]: Loaded Saturn config file with 4 configurable options
+[202월2026 15:07:23.730] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.25.1+mc1.20.1: 98 options available, 6 override(s) found
+[202월2026 15:07:23.732] [main/WARN] [ModernFix/]: Option 'mixin.perf.faster_item_rendering' overriden (by user configuration) to 'true'
+[202월2026 15:07:23.732] [main/WARN] [ModernFix/]: Option 'mixin.perf.dynamic_resources' overriden (by user configuration) to 'true'
+[202월2026 15:07:23.733] [main/WARN] [ModernFix/]: Option 'mixin.perf.dynamic_entity_renderers' overriden (by user configuration) to 'true'
+[202월2026 15:07:23.733] [main/WARN] [ModernFix/]: Option 'mixin.perf.remove_spawn_chunks' overriden (by user configuration) to 'true'
+[202월2026 15:07:23.733] [main/WARN] [ModernFix/]: Option 'mixin.perf.ingredient_item_deduplication' overriden (by user configuration) to 'true'
+[202월2026 15:07:23.733] [main/WARN] [ModernFix/]: Option 'mixin.perf.thread_priorities' overriden (by mods [smoothboot]) to 'false'
+[202월2026 15:07:23.734] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[202월2026 15:07:23.801] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[202월2026 15:07:23.836] [main/INFO] [net.werdei.biome_replacer.BiomeReplacer/]: [BiomeReplacer] TerraBlender detected, biome replacements will be injected into it
+[202월2026 15:07:23.837] [main/WARN] [settingdust.lazyyyyy.forge.core.faster_mixin.injected.FasterMixinServiceWrapper/]: Failed to read refmap lmft-common-refmap.json from file:///C:/Users/USER/Documents/GitHub/newone/mods/lmft-1.0.4+1.20.1-forge.jar for config lmft-common.mixins.json. Find from all resources will spend extra time. Check the debug log for detail of reason. If the file is missing, let the author of the mod moving the refmap into the jar declare it
+[202월2026 15:07:23.876] [main/WARN] [mixin/]: Reference map 'lmft-common-refmap.json' for lmft-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[202월2026 15:07:24.000] [main/INFO] [Radium Config/]: Loaded configuration file for Radium: 125 options available, 1 override(s) found
+[202월2026 15:07:24.002] [main/WARN] [settingdust.lazyyyyy.forge.core.faster_mixin.injected.FasterMixinServiceWrapper/]: Failed to read refmap jsconf.refmap.json from file:///C:/Users/USER/Documents/GitHub/newone/mods/jsconf-1.1.1.jar for config jsconf.mixins.json. Find from all resources will spend extra time. Check the debug log for detail of reason. If the file is missing, let the author of the mod moving the refmap into the jar declare it
+[202월2026 15:07:24.005] [main/WARN] [mixin/]: Reference map 'jsconf.refmap.json' for jsconf.mixins.json could not be read. If this is a development environment you can ignore this message
+[202월2026 15:07:24.006] [main/WARN] [settingdust.lazyyyyy.forge.core.faster_mixin.injected.FasterMixinServiceWrapper/]: Failed to read refmap harvest_with_ease.refmap.json from file:///C:/Users/USER/Documents/GitHub/newone/mods/harvest-with-ease-forge-1.20.1-9.4.0.jar for config harvest_with_ease.forge.mixins.json. Find from all resources will spend extra time. Check the debug log for detail of reason. If the file is missing, let the author of the mod moving the refmap into the jar declare it
+[202월2026 15:07:24.007] [main/WARN] [settingdust.lazyyyyy.forge.core.faster_mixin.injected.FasterMixinServiceWrapper/]: Failed to read refmap harvest_with_ease.refmap.json from file:///C:/Users/USER/Documents/GitHub/newone/mods/harvest-with-ease-forge-1.20.1-9.4.0.jar for config harvest_with_ease.mixins.json. Find from all resources will spend extra time. Check the debug log for detail of reason. If the file is missing, let the author of the mod moving the refmap into the jar declare it
+[202월2026 15:07:24.009] [main/WARN] [mixin/]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.mixins.json could not be read. If this is a development environment you can ignore this message
+[202월2026 15:07:24.010] [main/WARN] [settingdust.lazyyyyy.forge.core.faster_mixin.injected.FasterMixinServiceWrapper/]: Failed to read refmap harvest_with_ease.refmap.json from file:///C:/Users/USER/Documents/GitHub/newone/mods/harvest-with-ease-forge-1.20.1-9.4.0.jar for config harvest_with_ease.forge.mixins.json. Find from all resources will spend extra time. Check the debug log for detail of reason. If the file is missing, let the author of the mod moving the refmap into the jar declare it
+[202월2026 15:07:24.013] [main/WARN] [settingdust.lazyyyyy.forge.core.faster_mixin.injected.FasterMixinServiceWrapper/]: Failed to read refmap harvest_with_ease.refmap.json from file:///C:/Users/USER/Documents/GitHub/newone/mods/harvest-with-ease-forge-1.20.1-9.4.0.jar for config harvest_with_ease.mixins.json. Find from all resources will spend extra time. Check the debug log for detail of reason. If the file is missing, let the author of the mod moving the refmap into the jar declare it
+[202월2026 15:07:24.016] [main/WARN] [mixin/]: Reference map 'harvest_with_ease.refmap.json' for harvest_with_ease.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[202월2026 15:07:24.200] [main/WARN] [settingdust.lazyyyyy.forge.core.faster_mixin.injected.FasterMixinServiceWrapper/]: Failed to read refmap clickmachine.refmap.json from file:///C:/Users/USER/Documents/GitHub/newone/mods/ClickMachine-1.20.1-8.0.2.jar for config clickmachine.mixins.json. Find from all resources will spend extra time. Check the debug log for detail of reason. If the file is missing, let the author of the mod moving the refmap into the jar declare it
+[202월2026 15:07:24.203] [main/WARN] [mixin/]: Reference map 'clickmachine.refmap.json' for clickmachine.mixins.json could not be read. If this is a development environment you can ignore this message
+[202월2026 15:07:24.287] [main/WARN] [settingdust.lazyyyyy.forge.core.faster_mixin.injected.FasterMixinServiceWrapper/]: Failed to read refmap fastpaintings-forge-refmap.json from file:///C:/Users/USER/Documents/GitHub/newone/mods/fastpaintings-1.20-1.2.7.jar for config fastpaintings-forge.mixins.json. Find from all resources will spend extra time. Check the debug log for detail of reason. If the file is missing, let the author of the mod moving the refmap into the jar declare it
+[202월2026 15:07:24.290] [main/WARN] [mixin/]: Reference map 'fastpaintings-forge-refmap.json' for fastpaintings-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[202월2026 15:07:24.384] [main/WARN] [settingdust.lazyyyyy.forge.core.faster_mixin.injected.FasterMixinServiceWrapper/]: Failed to read refmap v_slab_compat-common-refmap.json from file:///C:/Users/USER/Documents/GitHub/newone/mods/v_slab_compat-1.20-2.5.jar for config v_slab_compat-common.mixins.json. Find from all resources will spend extra time. Check the debug log for detail of reason. If the file is missing, let the author of the mod moving the refmap into the jar declare it
+[202월2026 15:07:24.386] [main/WARN] [mixin/]: Reference map 'v_slab_compat-common-refmap.json' for v_slab_compat-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[202월2026 15:07:24.404] [main/WARN] [settingdust.lazyyyyy.forge.core.faster_mixin.injected.FasterMixinServiceWrapper/]: Failed to read refmap cobweb.refmap.json from file:///C:/Users/USER/Documents/GitHub/newone/mods/cobweb-forge-1.20.1-1.0.1.jar for config cobweb.forge.mixins.json. Find from all resources will spend extra time. Check the debug log for detail of reason. If the file is missing, let the author of the mod moving the refmap into the jar declare it
+[202월2026 15:07:24.406] [main/WARN] [settingdust.lazyyyyy.forge.core.faster_mixin.injected.FasterMixinServiceWrapper/]: Failed to read refmap cobweb.refmap.json from file:///C:/Users/USER/Documents/GitHub/newone/mods/cobweb-forge-1.20.1-1.0.1.jar for config cobweb.mixins.json. Find from all resources will spend extra time. Check the debug log for detail of reason. If the file is missing, let the author of the mod moving the refmap into the jar declare it
+[202월2026 15:07:24.408] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.mixins.json could not be read. If this is a development environment you can ignore this message
+[202월2026 15:07:24.408] [main/WARN] [settingdust.lazyyyyy.forge.core.faster_mixin.injected.FasterMixinServiceWrapper/]: Failed to read refmap cobweb.refmap.json from file:///C:/Users/USER/Documents/GitHub/newone/mods/cobweb-forge-1.20.1-1.0.1.jar for config cobweb.forge.mixins.json. Find from all resources will spend extra time. Check the debug log for detail of reason. If the file is missing, let the author of the mod moving the refmap into the jar declare it
+[202월2026 15:07:24.408] [main/WARN] [settingdust.lazyyyyy.forge.core.faster_mixin.injected.FasterMixinServiceWrapper/]: Failed to read refmap cobweb.refmap.json from file:///C:/Users/USER/Documents/GitHub/newone/mods/cobweb-forge-1.20.1-1.0.1.jar for config cobweb.mixins.json. Find from all resources will spend extra time. Check the debug log for detail of reason. If the file is missing, let the author of the mod moving the refmap into the jar declare it
+[202월2026 15:07:24.412] [main/WARN] [mixin/]: Reference map 'cobweb.refmap.json' for cobweb.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[202월2026 15:07:24.420] [main/WARN] [settingdust.lazyyyyy.forge.core.faster_mixin.injected.FasterMixinServiceWrapper/]: Failed to read refmap item_scrapper.refmap.json from file:///C:/Users/USER/Documents/GitHub/newone/mods/item_scrapper-1.2.9.jar for config item_scrapper.mixins.json. Find from all resources will spend extra time. Check the debug log for detail of reason. If the file is missing, let the author of the mod moving the refmap into the jar declare it
+[202월2026 15:07:24.422] [main/WARN] [mixin/]: Reference map 'item_scrapper.refmap.json' for item_scrapper.mixins.json could not be read. If this is a development environment you can ignore this message
+[202월2026 15:07:24.440] [main/WARN] [mixin/]: Reference map '' for mcreator_mem_fix.mixins.json could not be read. If this is a development environment you can ignore this message
+[202월2026 15:07:24.461] [main/WARN] [settingdust.lazyyyyy.forge.core.faster_mixin.injected.FasterMixinServiceWrapper/]: Failed to read refmap trashslot.refmap.json from file:///C:/Users/USER/Documents/GitHub/newone/mods/trashslot-forge-1.20-15.1.2.jar for config trashslot.mixins.json. Find from all resources will spend extra time. Check the debug log for detail of reason. If the file is missing, let the author of the mod moving the refmap into the jar declare it
+[202월2026 15:07:24.464] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[202월2026 15:07:24.487] [main/WARN] [settingdust.lazyyyyy.forge.core.faster_mixin.injected.FasterMixinServiceWrapper/]: Failed to read refmap default-server-properties-forge-refmap.json from file:///C:/Users/USER/Documents/GitHub/newone/mods/default-server-properties-forge-81.1.0.jar for config dsp.mixins.json. Find from all resources will spend extra time. Check the debug log for detail of reason. If the file is missing, let the author of the mod moving the refmap into the jar declare it
+[202월2026 15:07:24.489] [main/WARN] [mixin/]: Reference map 'default-server-properties-forge-refmap.json' for dsp.mixins.json could not be read. If this is a development environment you can ignore this message
+[202월2026 15:07:24.556] [main/WARN] [settingdust.lazyyyyy.forge.core.faster_mixin.injected.FasterMixinServiceWrapper/]: Failed to read refmap coroutil.refmap.json from file:///C:/Users/USER/Documents/GitHub/newone/mods/coroutil-forge-1.20.1-1.3.7.jar for config coroutil.mixins.json. Find from all resources will spend extra time. Check the debug log for detail of reason. If the file is missing, let the author of the mod moving the refmap into the jar declare it
+[202월2026 15:07:24.558] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[202월2026 15:07:24.608] [main/INFO] [dev.tonimatas.packetfixer.mixins.v1_19_4_forge.MixinPlugin/]: Packet Fixer forge 1.19.4-1.20.1 has been applied successfully.
+[202월2026 15:07:24.621] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
+[202월2026 15:07:25.309] [main/WARN] [mixin/]: Error loading class: com/ultramega/cabletiers/node/TieredConstructorNetworkNode (java.lang.ClassNotFoundException: com.ultramega.cabletiers.node.TieredConstructorNetworkNode)
+[202월2026 15:07:25.311] [main/WARN] [mixin/]: @Mixin target com.ultramega.cabletiers.node.TieredConstructorNetworkNode was not found mixins.rsmixin.json:common.cabletiers.TieredConstructorNetworkNodeMixin from mod rsmixin
+[202월2026 15:07:25.313] [main/WARN] [mixin/]: Error loading class: com/ultramega/cabletiers/node/TieredDestructorNetworkNode (java.lang.ClassNotFoundException: com.ultramega.cabletiers.node.TieredDestructorNetworkNode)
+[202월2026 15:07:25.313] [main/WARN] [mixin/]: @Mixin target com.ultramega.cabletiers.node.TieredDestructorNetworkNode was not found mixins.rsmixin.json:common.cabletiers.TieredDestructorNetworkNodeMixin from mod rsmixin
+[202월2026 15:07:25.315] [main/WARN] [mixin/]: Error loading class: com/ultramega/cabletiers/node/diskmanipulator/TieredDiskManipulatorNetworkNode (java.lang.ClassNotFoundException: com.ultramega.cabletiers.node.diskmanipulator.TieredDiskManipulatorNetworkNode)
+[202월2026 15:07:25.315] [main/WARN] [mixin/]: @Mixin target com.ultramega.cabletiers.node.diskmanipulator.TieredDiskManipulatorNetworkNode was not found mixins.rsmixin.json:common.cabletiers.TieredDiskManipulatorNetworkNodeMixin from mod rsmixin
+[202월2026 15:07:25.316] [main/WARN] [mixin/]: Error loading class: com/ultramega/cabletiers/node/TieredExporterNetworkNode (java.lang.ClassNotFoundException: com.ultramega.cabletiers.node.TieredExporterNetworkNode)
+[202월2026 15:07:25.316] [main/WARN] [mixin/]: @Mixin target com.ultramega.cabletiers.node.TieredExporterNetworkNode was not found mixins.rsmixin.json:common.cabletiers.TieredExporterNetworkNodeMixin from mod rsmixin
+[202월2026 15:07:25.316] [main/WARN] [mixin/]: Error loading class: com/ultramega/cabletiers/node/TieredImporterNetworkNode (java.lang.ClassNotFoundException: com.ultramega.cabletiers.node.TieredImporterNetworkNode)
+[202월2026 15:07:25.317] [main/WARN] [mixin/]: @Mixin target com.ultramega.cabletiers.node.TieredImporterNetworkNode was not found mixins.rsmixin.json:common.cabletiers.TieredImporterNetworkNodeMixin from mod rsmixin
+[202월2026 15:07:25.317] [main/WARN] [mixin/]: Error loading class: com/ultramega/cabletiers/node/TieredInterfaceNetworkNode (java.lang.ClassNotFoundException: com.ultramega.cabletiers.node.TieredInterfaceNetworkNode)
+[202월2026 15:07:25.318] [main/WARN] [mixin/]: @Mixin target com.ultramega.cabletiers.node.TieredInterfaceNetworkNode was not found mixins.rsmixin.json:common.cabletiers.TieredInterfaceNetworkNodeMixin from mod rsmixin
+[202월2026 15:07:25.318] [main/WARN] [mixin/]: Error loading class: com/ultramega/cabletiers/node/TieredRequesterNetworkNode (java.lang.ClassNotFoundException: com.ultramega.cabletiers.node.TieredRequesterNetworkNode)
+[202월2026 15:07:25.318] [main/WARN] [mixin/]: @Mixin target com.ultramega.cabletiers.node.TieredRequesterNetworkNode was not found mixins.rsmixin.json:common.cabletiers.TieredRequesterNetworkNodeMixin from mod rsmixin
+[202월2026 15:07:25.319] [main/WARN] [mixin/]: Error loading class: com/enderio/conduits/common/conduit/block/ConduitBlockEntity (java.lang.ClassNotFoundException: com.enderio.conduits.common.conduit.block.ConduitBlockEntity)
+[202월2026 15:07:25.319] [main/WARN] [mixin/]: @Mixin target com.enderio.conduits.common.conduit.block.ConduitBlockEntity was not found mixins.rsmixin.json:common.enderio.ConduitBlockEntityTypedBackupMixin from mod rsmixin
+[202월2026 15:07:25.320] [main/WARN] [mixin/]: Error loading class: com/enderio/conduits/common/conduit/ConduitBundle (java.lang.ClassNotFoundException: com.enderio.conduits.common.conduit.ConduitBundle)
+[202월2026 15:07:25.320] [main/WARN] [mixin/]: @Mixin target com.enderio.conduits.common.conduit.ConduitBundle was not found mixins.rsmixin.json:common.enderio.ConduitBundleMixin from mod rsmixin
+[202월2026 15:07:25.321] [main/WARN] [mixin/]: Error loading class: edivad/extrastorage/nodes/AdvancedCrafterNetworkNode (java.lang.ClassNotFoundException: edivad.extrastorage.nodes.AdvancedCrafterNetworkNode)
+[202월2026 15:07:25.321] [main/WARN] [mixin/]: @Mixin target edivad.extrastorage.nodes.AdvancedCrafterNetworkNode was not found mixins.rsmixin.json:common.extrastorage.extrastorage.AdvancedCrafterNetworkNodeMixin from mod rsmixin
+[202월2026 15:07:25.322] [main/WARN] [mixin/]: Error loading class: edivad/extrastorage/nodes/AdvancedExporterNetworkNode (java.lang.ClassNotFoundException: edivad.extrastorage.nodes.AdvancedExporterNetworkNode)
+[202월2026 15:07:25.322] [main/WARN] [mixin/]: @Mixin target edivad.extrastorage.nodes.AdvancedExporterNetworkNode was not found mixins.rsmixin.json:common.extrastorage.extrastorage.AdvancedExporterNetworkNodeMixin from mod rsmixin
+[202월2026 15:07:25.323] [main/WARN] [mixin/]: Error loading class: edivad/extrastorage/nodes/AdvancedImporterNetworkNode (java.lang.ClassNotFoundException: edivad.extrastorage.nodes.AdvancedImporterNetworkNode)
+[202월2026 15:07:25.323] [main/WARN] [mixin/]: @Mixin target edivad.extrastorage.nodes.AdvancedImporterNetworkNode was not found mixins.rsmixin.json:common.extrastorage.extrastorage.AdvancedImporterNetworkNodeMixin from mod rsmixin
+[202월2026 15:07:25.324] [main/WARN] [mixin/]: Error loading class: net/gigabit101/rebornstorage/blocks/BlockMultiCrafter (java.lang.ClassNotFoundException: net.gigabit101.rebornstorage.blocks.BlockMultiCrafter)
+[202월2026 15:07:25.324] [main/WARN] [mixin/]: @Mixin target net.gigabit101.rebornstorage.blocks.BlockMultiCrafter was not found mixins.rsmixin.json:common.rebornstorage.BlockMultiCrafterMixin from mod rsmixin
+[202월2026 15:07:25.325] [main/WARN] [mixin/]: Error loading class: net/gigabit101/rebornstorage/containers/ContainerMultiCrafter (java.lang.ClassNotFoundException: net.gigabit101.rebornstorage.containers.ContainerMultiCrafter)
+[202월2026 15:07:25.325] [main/WARN] [mixin/]: @Mixin target net.gigabit101.rebornstorage.containers.ContainerMultiCrafter was not found mixins.rsmixin.json:common.rebornstorage.ContainerMultiCrafterMixin from mod rsmixin
+[202월2026 15:07:25.326] [main/WARN] [mixin/]: Error loading class: net/gigabit101/rebornstorage/nodes/CraftingNode (java.lang.ClassNotFoundException: net.gigabit101.rebornstorage.nodes.CraftingNode)
+[202월2026 15:07:25.326] [main/WARN] [mixin/]: @Mixin target net.gigabit101.rebornstorage.nodes.CraftingNode was not found mixins.rsmixin.json:common.rebornstorage.CraftingNodeMixin from mod rsmixin
+[202월2026 15:07:25.327] [main/WARN] [mixin/]: Error loading class: net/gigabit101/rebornstorage/core/multiblock/MultiblockControllerBase (java.lang.ClassNotFoundException: net.gigabit101.rebornstorage.core.multiblock.MultiblockControllerBase)
+[202월2026 15:07:25.328] [main/WARN] [mixin/]: @Mixin target net.gigabit101.rebornstorage.core.multiblock.MultiblockControllerBase was not found mixins.rsmixin.json:common.rebornstorage.MultiblockControllerBaseMixin from mod rsmixin
+[202월2026 15:07:25.329] [main/WARN] [mixin/]: Error loading class: net/gigabit101/rebornstorage/multiblocks/MultiBlockCrafter (java.lang.ClassNotFoundException: net.gigabit101.rebornstorage.multiblocks.MultiBlockCrafter)
+[202월2026 15:07:25.329] [main/WARN] [mixin/]: @Mixin target net.gigabit101.rebornstorage.multiblocks.MultiBlockCrafter was not found mixins.rsmixin.json:common.rebornstorage.MultiBlockCrafterMixin from mod rsmixin
+[202월2026 15:07:25.331] [main/WARN] [mixin/]: Error loading class: net/gigabit101/rebornstorage/core/multiblock/rectangular/RectangularMultiblockControllerBase (java.lang.ClassNotFoundException: net.gigabit101.rebornstorage.core.multiblock.rectangular.RectangularMultiblockControllerBase)
+[202월2026 15:07:25.331] [main/WARN] [mixin/]: @Mixin target net.gigabit101.rebornstorage.core.multiblock.rectangular.RectangularMultiblockControllerBase was not found mixins.rsmixin.json:common.rebornstorage.RectangularMultiblockControllerBaseMixin from mod rsmixin
+[202월2026 15:07:25.332] [main/WARN] [mixin/]: Error loading class: dev/stevendoesstuffs/refinedcrafterproxy/crafterproxy/CrafterProxyNetworkNode (java.lang.ClassNotFoundException: dev.stevendoesstuffs.refinedcrafterproxy.crafterproxy.CrafterProxyNetworkNode)
+[202월2026 15:07:25.332] [main/WARN] [mixin/]: @Mixin target dev.stevendoesstuffs.refinedcrafterproxy.crafterproxy.CrafterProxyNetworkNode was not found mixins.rsmixin.json:common.refinedcrafterproxy.CrafterProxyNetworkNodeMixin from mod rsmixin
+[202월2026 15:07:25.340] [main/WARN] [mixin/]: Error loading class: com/buuz135/refinedstoragerequestify/proxy/block/network/NetworkNodeRequester (java.lang.ClassNotFoundException: com.buuz135.refinedstoragerequestify.proxy.block.network.NetworkNodeRequester)
+[202월2026 15:07:25.341] [main/WARN] [mixin/]: @Mixin target com.buuz135.refinedstoragerequestify.proxy.block.network.NetworkNodeRequester was not found mixins.rsmixin.json:common.refinedstoragerequestify.NetworkNodeRequesterMixin from mod rsmixin
+[202월2026 15:07:25.553] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[202월2026 15:07:25.554] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[202월2026 15:07:25.554] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
+[202월2026 15:07:25.555] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[202월2026 15:07:25.555] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[202월2026 15:07:25.556] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
+[202월2026 15:07:25.656] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[202월2026 15:07:25.662] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[202월2026 15:07:25.724] [main/WARN] [Radium Config/]: Force-disabling mixin 'alloc.blockstate.StateMixin' as option 'mixin.alloc.blockstate' (added by mods [ferritecore]) disables it and children
+[202월2026 15:07:25.890] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.zeta.Issue69 will be loaded as it matches versions: 1.0-31 in [1.0-19,)
+[202월2026 15:07:25.890] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.RecipeCrawlHandlerMixin]
+[202월2026 15:07:25.890] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.spark.Issue447 will be loaded as it matches versions: 1.10.53 in *
+[202월2026 15:07:25.890] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.ForgeServerSparkPluginMixin]
+[202월2026 15:07:25.891] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.sereneseasons.UntrackedIssue001 will be loaded as it matches versions: 9.1.0.2 in [9.1.0.0,)
+[202월2026 15:07:25.891] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.moonlight.UntrackedIssue001 will be loaded as it matches versions: 1.20-2.14.13 in [1.20-2.13.32,)
+[202월2026 15:07:25.891] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.FakeLevelManagerMixin]
+[202월2026 15:07:25.891] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue002 will be loaded as it matches versions: 1.20.1 in 1.20.1
+[202월2026 15:07:25.891] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.EntityTickListMixin]
+[202월2026 15:07:25.891] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.minecraft.UntrackedIssue001 will be loaded as it matches versions: 1.20.1 in 1.20.1
+[202월2026 15:07:25.892] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue002 will be loaded as it matches versions: 47.4.0 in [47.2,)
+[202월2026 15:07:25.892] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [accessor.FakePlayerNetHandlerAccessor, accessor.ConnectionAccessor]
+[202월2026 15:07:25.892] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.UntrackedIssue001 will be loaded as it matches versions: 47.4.0 in [47.2,)
+[202월2026 15:07:25.892] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.ServerPlayerMixin, main.PlayerListMixin, accessor.PlayerAdvancementsAccessor]
+[202월2026 15:07:25.892] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.Issue39 will be loaded as it matches versions: 47.4.0 in [47.2,)
+[202월2026 15:07:25.892] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.forge.Issue10684 will be loaded as it matches versions: 47.4.0 in *
+[202월2026 15:07:25.892] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.curios.UntrackedIssue001 will be loaded as it matches versions: 5.12.1+1.20.1 in [5.9.1,)
+[202월2026 15:07:25.893] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.CuriosEventHandlerMixin]
+[202월2026 15:07:25.893] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.create.UntrackedIssue001 will be loaded as it matches versions: 6.0.6 in [0.5.1.c,)
+[202월2026 15:07:25.893] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [accessor.ExtendoGripItemAccessor]
+[202월2026 15:07:25.893] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.leaks.common.mods.architectury.UntrackedIssue001 will be loaded as it matches versions: 9.2.14 in [9.0.8,)
+[202월2026 15:07:25.893] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.fix.common.mods.zeta.FixCopyStack will be loaded as it matches versions: 1.0-31 in *
+[202월2026 15:07:25.893] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.StackFixRecipeCrawlHandlerMixin]
+[202월2026 15:07:25.895] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.fix.common.mods.modernfix.CancelRLMixin will be loaded as it matches versions: 5.25.1+mc1.20.1 in [5.0.0,)
+[202월2026 15:07:25.895] [main/INFO] [AllTheLeaks/]: Mixins added to cancel list: [org.embeddedt.modernfix.common.mixin.perf.deduplicate_location.MixinResourceLocation]
+[202월2026 15:07:25.895] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.fix.common.mods.kubejs.FixItemStackModification will be loaded as it matches versions: 2001.6.5-build.16 in *
+[202월2026 15:07:25.895] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.IngredientKJSMixin]
+[202월2026 15:07:25.895] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.fix.common.mods.jei.FixItemStackCopy will be loaded as it matches versions: 15.20.0.112 in *
+[202월2026 15:07:25.895] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.SmithingCategoryExtensionMixin, main.NormalizedTypedItemStackMixin, main.IngredientSetMixin]
+[202월2026 15:07:25.895] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.fix.common.mods.immersiveengineering.FixPreferredTagStack will be loaded as it matches versions: 1.20.1-10.2.0-183 in *
+[202월2026 15:07:25.895] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.VillagesTradelistMixin]
+[202월2026 15:07:25.912] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.feature.common.mods.minecraft.MemoryMonitor will be loaded as it matches versions: 1.20.1 in 1.20.1
+[202월2026 15:07:25.913] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [main.PlayerMixin, main.ChunkAccessMixin, main.LevelMixin, main.MinecraftServerMixin]
+[202월2026 15:07:25.914] [main/INFO] [AllTheLeaks/]: Class dev.uncandango.alltheleaks.feature.common.mods.minecraft.ClearLeakedLevelChunks will be loaded as it matches versions: 1.20.1 in 1.20.1
+[202월2026 15:07:25.915] [main/INFO] [AllTheLeaks/]: Mixins added to allowed list: [accessor.LevelAccessor, main.RebindableTickingBlockEntityWrapperMixin, accessor.LevelChunkAccessor]
+[202월2026 15:07:26.005] [main/WARN] [mixin/]: Error loading class: org/admany/lcmultithreaded/core/PlayerPreloader (java.lang.ClassNotFoundException: org.admany.lcmultithreaded.core.PlayerPreloader)
+[202월2026 15:07:26.006] [main/WARN] [mixin/]: @Mixin target org.admany.lcmultithreaded.core.PlayerPreloader was not found deceased_expansion.mixins.json:lcmultithreaded.PlayerPreloaderMixin from mod deceased_expansion
+[202월2026 15:07:26.100] [main/INFO] [settingdust.lazyyyyy.LazyyyyyMixinPlugin/]: Disabled 'lazy_entity_renderers.EntityRenderDispatcherMixin' due to config
+[202월2026 15:07:26.100] [main/INFO] [settingdust.lazyyyyy.LazyyyyyMixinPlugin/]: Disabled 'lazy_entity_renderers.curios.Curios_ClientProxyMixin' due to config
+[202월2026 15:07:26.100] [main/INFO] [settingdust.lazyyyyy.LazyyyyyMixinPlugin/]: Disabled 'lazy_entity_renderers.habitat.HabitatChestItemMixin' due to config
+[202월2026 15:07:26.101] [main/INFO] [settingdust.lazyyyyy.LazyyyyyMixinPlugin/]: Disabled 'lazy_entity_renderers.supplementaries.SignPostBlockTileRendererMixin' due to config
+[202월2026 15:07:26.101] [main/INFO] [settingdust.lazyyyyy.LazyyyyyMixinPlugin/]: Disabled 'lazy_entity_renderers.what_are_you_voting_for_2023.ClientEventBusSubscriberMixin' due to config
+[202월2026 15:07:26.105] [main/WARN] [mixin/]: Error loading class: net/jitl/client/ClientLoginChecker (java.lang.ClassNotFoundException: net.jitl.client.ClientLoginChecker)
+[202월2026 15:07:26.105] [main/WARN] [mixin/]: @Mixin target net.jitl.client.ClientLoginChecker was not found lazyyyyy.forge.mixins.json:jitl.fix_login_crash.ClientLoginCheckerMixin from mod lazyyyyy
+[202월2026 15:07:26.107] [main/WARN] [mixin/]: Error loading class: com/ultramega/cabletiers/registry/ClientEventHandler (java.lang.ClassNotFoundException: com.ultramega.cabletiers.registry.ClientEventHandler)
+[202월2026 15:07:26.107] [main/WARN] [mixin/]: @Mixin target com.ultramega.cabletiers.registry.ClientEventHandler was not found lazyyyyy.forge.mixins.json:lazy_model_bake.cable_tiers.ClientEventHandlerMixin from mod lazyyyyy
+[202월2026 15:07:26.109] [main/WARN] [mixin/]: Error loading class: fuzs/puzzleslib/impl/client/event/ForgeClientEventInvokers (java.lang.ClassNotFoundException: fuzs.puzzleslib.impl.client.event.ForgeClientEventInvokers)
+[202월2026 15:07:26.109] [main/WARN] [mixin/]: @Mixin target fuzs.puzzleslib.impl.client.event.ForgeClientEventInvokers was not found lazyyyyy.forge.mixins.json:puzzlelib.lazy_model_baking_events.ForgeClientEventInvokersMixin from mod lazyyyyy
+[202월2026 15:07:26.185] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: recipeessentials.json
+[202월2026 15:07:26.427] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER
+[202월2026 15:07:26.427] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/player/AbstractClientPlayer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/AbstractClientPlayer for invalid dist DEDICATED_SERVER)
+[202월2026 15:07:26.427] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.player.AbstractClientPlayer was not found mixins.create_sa.json:AbstractClientPlayerMixin from mod create_sa
+[202월2026 15:07:26.429] [main/WARN] [mixin/]: Error loading class: vazkii/quark/addons/oddities/inventory/BackpackMenu (java.lang.ClassNotFoundException: vazkii.quark.addons.oddities.inventory.BackpackMenu)
+[202월2026 15:07:26.431] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/inventory/CraftingScreen (java.lang.ClassNotFoundException: net.minecraft.client.gui.screens.inventory.CraftingScreen)
+[202월2026 15:07:26.431] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.inventory.CraftingScreen was not found fastbench.mixins.json:MixinCraftingScreen from mod fastbench
+[202월2026 15:07:26.437] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/twin_autocannon/contraption/MountedTwinAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption)
+[202월2026 15:07:26.437] [main/WARN] [mixin/]: @Mixin target com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption was not found create_radar.mixins.json:AutoCannonAccessor from mod create_radar
+[202월2026 15:07:26.438] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/heavy_autocannon/contraption/MountedHeavyAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption)
+[202월2026 15:07:26.438] [main/WARN] [mixin/]: @Mixin target com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption was not found create_radar.mixins.json:AutoCannonAccessor from mod create_radar
+[202월2026 15:07:26.463] [main/WARN] [mixin/]: Error loading class: xfacthd/framedblocks/common/blockentity/doubled/FramedAdjustableDoubleBlockEntity (java.lang.ClassNotFoundException: xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity)
+[202월2026 15:07:26.463] [main/WARN] [mixin/]: @Mixin target xfacthd.framedblocks.common.blockentity.doubled.FramedAdjustableDoubleBlockEntity was not found createbigcannons.mixins.json:compat.FramedAdjustableDoubleBlockEntityAccessor from mod createbigcannons
+[202월2026 15:07:26.494] [main/INFO] [settingdust.lazyyyyy.LazyyyyyMixinPlugin/]: Disabled 'lazy_entity_renderers.entity_model_features.EMFManagerMixin' due to config
+[202월2026 15:07:26.498] [main/WARN] [mixin/]: Error loading class: net/sweenus/simplyswords/config/Config (java.lang.ClassNotFoundException: net.sweenus.simplyswords.config.Config)
+[202월2026 15:07:26.498] [main/WARN] [mixin/]: @Mixin target net.sweenus.simplyswords.config.Config was not found lazyyyyy.mixins.json:simply_swords.faster_config.ConfigMixin from mod (unknown)
+[202월2026 15:07:26.722] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/tacz/guns/api/modifier/IAttachmentModifier$DiagramsData for invalid dist DEDICATED_SERVER
+[202월2026 15:07:26.722] [main/WARN] [mixin/]: Error loading class: com/tacz/guns/api/modifier/IAttachmentModifier$DiagramsData (java.lang.RuntimeException: Attempted to load class com/tacz/guns/api/modifier/IAttachmentModifier$DiagramsData for invalid dist DEDICATED_SERVER)
+[202월2026 15:07:26.724] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/tacz/guns/api/modifier/IAttachmentModifier$DiagramsData for invalid dist DEDICATED_SERVER
+[202월2026 15:07:26.724] [main/WARN] [mixin/]: Error loading class: com/tacz/guns/api/modifier/IAttachmentModifier$DiagramsData (java.lang.RuntimeException: Attempted to load class com/tacz/guns/api/modifier/IAttachmentModifier$DiagramsData for invalid dist DEDICATED_SERVER)
+[202월2026 15:07:26.741] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/twin_autocannon/contraption/MountedTwinAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption)
+[202월2026 15:07:26.743] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/heavy_autocannon/contraption/MountedHeavyAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption)
+[202월2026 15:07:26.744] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/twin_autocannon/contraption/MountedTwinAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption)
+[202월2026 15:07:26.745] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/heavy_autocannon/contraption/MountedHeavyAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption)
+[202월2026 15:07:26.768] [Thread-1/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:698]: java.util.ConcurrentModificationException
+[202월2026 15:07:26.771] [Thread-1/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:698]: 	at java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:1023)
+[202월2026 15:07:26.771] [Thread-1/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:698]: 	at java.base/java.util.LinkedHashMap$LinkedValueIterator.next(LinkedHashMap.java:1052)
+[202월2026 15:07:26.771] [Thread-1/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:698]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchPluginHandler.computeLaunchPluginTransformerSet(LaunchPluginHandler.java:68)
+[202월2026 15:07:26.772] [Thread-1/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:698]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:64)
+[202월2026 15:07:26.773] [Thread-1/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:698]: 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50)
+[202월2026 15:07:26.774] [Thread-1/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:698]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113)
+[202월2026 15:07:26.775] [Thread-1/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:698]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219)
+[202월2026 15:07:26.776] [Thread-1/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:698]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229)
+[202월2026 15:07:26.777] [Thread-1/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:698]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219)
+[202월2026 15:07:26.778] [Thread-1/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:698]: 	at cpw.mods.securejarhandler/cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135)
+[202월2026 15:07:26.779] [Thread-1/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:698]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+[202월2026 15:07:26.779] [Thread-1/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:698]: 	at TRANSFORMER/modernfix@5.25.1+mc1.20.1/org.embeddedt.modernfix.forge.config.NightConfigWatchThrottler$1.values(NightConfigWatchThrottler.java:37)
+[202월2026 15:07:26.780] [Thread-1/INFO] [STDERR/]: [java.lang.ThreadGroup:uncaughtException:698]: 	at MC-BOOTSTRAP/com.electronwill.nightconfig.core@3.6.4/com.electronwill.nightconfig.core.file.FileWatcher$WatcherThread.run(FileWatcher.java:162)
+[202월2026 15:07:26.800] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.0).
+[202월2026 15:07:27.223] [main/INFO] [Smooth Boot (Reloaded)/]: Smooth Boot (Reloaded) config initialized
+[202월2026 15:07:27.485] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_216202_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagOrElementLocationMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[202월2026 15:07:28.474] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (17.28 s after launch)
+[202월2026 15:07:28.853] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
+[202월2026 15:07:28.854] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin from mod modernfix should be final
+[202월2026 15:07:29.466] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[202월2026 15:07:29.466] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getNeighborPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[202월2026 15:07:29.466] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getPathNodeType from me.jellysquid.mods.lithium.mixin.ai.pathing.AbstractBlockStateMixin
+[202월2026 15:07:29.467] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[202월2026 15:07:29.467] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getAllFlags from me.jellysquid.mods.lithium.mixin.util.block_tracking.AbstractBlockStateMixin
+[202월2026 15:07:29.880] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[202월2026 15:07:29.888] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[202월2026 15:07:30.011] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=1 on crittersandcompanions.mixins.json:LivingEntityMixin from mod crittersandcompanions::handler$cbm001$crittersandcompanions$onDie exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[202월2026 15:07:31.173] [main/WARN] [mixin/]: @Redirect conflict. Skipping mixins.redirected_forge_1.20.1.json:net.minecraft.world.level.block.piston.PistonBaseBlockMixin from mod redirected->@Redirect::redirectDirections()[Lnet/minecraft/core/Direction; with priority 10, already redirected by lithium.mixins.json:alloc.enum_values.piston_block.PistonBlockMixin from mod radium->@Redirect::removeAllocation()[Lnet/minecraft/core/Direction; with priority 1000
+[202월2026 15:07:31.173] [main/WARN] [mixin/]: @Redirect conflict. Skipping mixins.redirected_forge_1.20.1.json:net.minecraft.world.level.block.piston.PistonBaseBlockMixin from mod redirected->@Redirect::redirectDirections()[Lnet/minecraft/core/Direction; with priority 10, already redirected by lithium.mixins.json:alloc.enum_values.piston_block.PistonBlockMixin from mod radium->@Redirect::removeAllocation()[Lnet/minecraft/core/Direction; with priority 1000
+[202월2026 15:07:31.208] [main/WARN] [mixin/]: @Redirect conflict. Skipping mixins.redirected_forge_1.20.1.json:net.minecraft.world.level.block.RedStoneWireBlockMixin from mod redirected->@Redirect::redirectDirections()[Lnet/minecraft/core/Direction; with priority 10, already redirected by lithium.mixins.json:alloc.enum_values.redstone_wire.RedstoneWireBlockMixin from mod radium->@Redirect::removeAllocation1()[Lnet/minecraft/core/Direction; with priority 1000
+[202월2026 15:07:31.208] [main/WARN] [mixin/]: @Redirect conflict. Skipping mixins.redirected_forge_1.20.1.json:net.minecraft.world.level.block.RedStoneWireBlockMixin from mod redirected->@Redirect::redirectDirections()[Lnet/minecraft/core/Direction; with priority 10, already redirected by lithium.mixins.json:alloc.enum_values.redstone_wire.RedstoneWireBlockMixin from mod radium->@Redirect::removeAllocation2()[Lnet/minecraft/core/Direction; with priority 1000
+[202월2026 15:07:31.548] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[202월2026 15:07:31.549] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching IForgeItemStack#getEnchantmentLevel
+[202월2026 15:07:31.614] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 3133 milliseconds
+[202월2026 15:07:31.783] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping connectivity.mixins.json:ClientBoundCustomPayloadPacketLMixin from mod connectivity->@ModifyConstant::modifyLimit(I)I with priority 1, already redirected by packetfixer.v1_19_4.forge.mixins.json:v1_19_4_forge.ClientboundCustomPayloadPacketMixin from mod packetfixer->@ModifyConstant::packetfixer$newSize(I)I with priority 1000
+[202월2026 15:07:31.785] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping connectivity.mixins.json:ClientBoundCustomPayloadPacketLMixin from mod connectivity->@ModifyConstant::modifyLimit(I)I with priority 1, already redirected by packetfixer.v1_19_4.forge.mixins.json:v1_19_4_forge.ClientboundCustomPayloadPacketMixin from mod packetfixer->@ModifyConstant::packetfixer$newSize(I)I with priority 1000
+[202월2026 15:07:31.915] [main/WARN] [mixin/]: @Redirect conflict. Skipping mixins.redirected_forge_1.20.1.json:net.minecraft.world.level.block.piston.PistonStructureResolverMixin from mod redirected->@Redirect::redirectDirections()[Lnet/minecraft/core/Direction; with priority 10, already redirected by lithium.mixins.json:alloc.enum_values.piston_handler.PistonHandlerMixin from mod radium->@Redirect::removeAllocation()[Lnet/minecraft/core/Direction; with priority 1000
+[202월2026 15:07:33.035] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin from mod refurbished_furniture::handler$dbc000$refurbished_furniture$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[202월2026 15:07:33.773] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping packetfixer.v1_19_4.forge.mixins.json:v1_19_4_forge.ServerGamePacketListenerImplMixin from mod packetfixer->@ModifyConstant::packetfixer$tick(J)J with priority 1000, already redirected by connectivity.mixins.json:ServerPlayNetHandlerMixin from mod connectivity->@ModifyConstant::playTimeout(J)J with priority 1001
+[202월2026 15:07:34.320] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[202월2026 15:07:34.321] [main/WARN] [mixin/]: Method overwrite conflict for m_47505_ in lithium.mixins.json:world.temperature_cache.BiomeMixin from mod radium, previously written by org.embeddedt.modernfix.common.mixin.perf.remove_biome_temperature_cache.BiomeMixin. Skipping method.
+[202월2026 15:07:34.519] [main/INFO] [necronomicon/]: File exists, reading config for elocindev.resistance_balancer.config.ResistanceBalancerConfig.
+[202월2026 15:07:34.520] [main/INFO] [necronomicon/]: Config for elocindev.resistance_balancer.config.ResistanceBalancerConfig read successfully.
+[202월2026 15:07:34.839] [modloading-worker-0/INFO] [net.marblednull.shotsfired.ShotsFired/]: Shots Fired initializing.
+[202월2026 15:07:34.853] [modloading-worker-0/INFO] [MaxHealthFix/]: Loaded maxhealthfix for Forge.
+[202월2026 15:07:34.870] [modloading-worker-0/INFO] [tech.muddykat.engineered_schematics.EngineeredSchematics/]: Starting Engineered Schematics
+[202월2026 15:07:34.876] [modloading-worker-0/INFO] [io.wispforest.lmft.LMFTCommon/]: [LMFT]: Loaded Config File!
+[202월2026 15:07:34.882] [modloading-worker-0/INFO] [Better Compatibility Checker/]: Better Compatibility Checker starting
+[202월2026 15:07:34.923] [modloading-worker-0/INFO] [hordes/]: Trying to load common config
+[202월2026 15:07:34.990] [modloading-worker-0/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_215924_ in modernfix-forge.mixins.json:perf.tag_id_caching.TagEntryMixin from mod modernfix cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[202월2026 15:07:34.998] [modloading-worker-0/INFO] [hordes/]: Trying to load client config
+[202월2026 15:07:35.023] [modloading-worker-0/INFO] [com.corrinedev.jsconf.JSConf/]: type = com.google.gson.internal.LinkedTreeMap
+[202월2026 15:07:35.023] [modloading-worker-0/INFO] [hordes/]: Config files are up to date, skipping data/asset generation
+[202월2026 15:07:35.025] [modloading-worker-0/INFO] [com.corrinedev.jsconf.JSConf/]: Config shotsfired-tacz.json was loaded, values = {TACZ=ConfigValue{element='TACZ', value={tacz:deagle=net.marblednull.shotsfired.util.DropData@6588d824, tacz:timeless50=net.marblednull.shotsfired.util.DropData@4410eb50, tacz:glock_17=net.marblednull.shotsfired.util.DropData@6d15ac10, tacz:deagle_golden=net.marblednull.shotsfired.util.DropData@421acaec, tacz:m1911=net.marblednull.shotsfired.util.DropData@61f06373, tacz:cz75=net.marblednull.shotsfired.util.DropData@22794e76, tacz:b93r=net.marblednull.shotsfired.util.DropData@624c0305, tacz:p320=net.marblednull.shotsfired.util.DropData@7615f80a, tacz:springfield1873=net.marblednull.shotsfired.util.DropData@141cf640, tacz:m700=net.marblednull.shotsfired.util.DropData@7c7e004b, tacz:ai_awp=net.marblednull.shotsfired.util.DropData@7ea870ea, tacz:m107=net.marblednull.shotsfired.util.DropData@2724129d, tacz:m95=net.marblednull.shotsfired.util.DropData@54795ecf, tacz:sks_tactical=net.marblednull.shotsfired.util.DropData@58897053, tacz:type_81=net.marblednull.shotsfired.util.DropData@651b6488, tacz:qbz_95=net.marblednull.shotsfired.util.DropData@622c224c, tacz:ak47=net.marblednull.shotsfired.util.DropData@7c3d97e0, tacz:hk416d=net.marblednull.shotsfired.util.DropData@6fa57bdc, tacz:m4a1=net.marblednull.shotsfired.util.DropData@51247d84, tacz:g36k=net.marblednull.shotsfired.util.DropData@52990bae, tacz:m16a1=net.marblednull.shotsfired.util.DropData@428b048a, tacz:spr15hb=net.marblednull.shotsfired.util.DropData@634ec9c, tacz:hk_g3=net.marblednull.shotsfired.util.DropData@748e6983, tacz:m16a4=net.marblednull.shotsfired.util.DropData@6e50c8c7, tacz:scar_l=net.marblednull.shotsfired.util.DropData@74e52ed3, tacz:scar_h=net.marblednull.shotsfired.util.DropData@55946cdf, tacz:mk14=net.marblednull.shotsfired.util.DropData@52d1c59f, tacz:aug=net.marblednull.shotsfired.util.DropData@3aaf29f2, tacz:db_short=net.marblednull.shotsfired.util.DropData@67e10bc2, tacz:db_long=net.marblednull.shotsfired.util.DropData@11657175, tacz:m870=net.marblednull.shotsfired.util.DropData@4d44a3fb, tacz:aa12=net.marblednull.shotsfired.util.DropData@ee7f318, tacz:ump45=net.marblednull.shotsfired.util.DropData@61b7561d, tacz:vector45=net.marblednull.shotsfired.util.DropData@5be37d87, tacz:hk_mp5a5=net.marblednull.shotsfired.util.DropData@33d0567b, tacz:uzi=net.marblednull.shotsfired.util.DropData@29e1c2a, tacz:p90=net.marblednull.shotsfired.util.DropData@59c2a5da, tacz:m249=net.marblednull.shotsfired.util.DropData@198de420, tacz:rpk=net.marblednull.shotsfired.util.DropData@285f0ae4, tacz:minigun=net.marblednull.shotsfired.util.DropData@5ad22c89, suffuse:tec9=net.marblednull.shotsfired.util.DropData@1672be7c, suffuse:tti2011=net.marblednull.shotsfired.util.DropData@60a8f476, suffuse:python=net.marblednull.shotsfired.util.DropData@30f0daad, suffuse:tt33=net.marblednull.shotsfired.util.DropData@7b8d0e5e, suffuse:viper2011=net.marblednull.shotsfired.util.DropData@788fce0d, suffuse:aw50=net.marblednull.shotsfired.util.DropData@5fa38e2e, suffuse:gm6=net.marblednull.shotsfired.util.DropData@693012c5, suffuse:m200=net.marblednull.shotsfired.util.DropData@7a5c0e43, suffuse:qbz951s=net.marblednull.shotsfired.util.DropData@7ca558a3, suffuse:qbz192=net.marblednull.shotsfired.util.DropData@3f347be7, suffuse:an94=net.marblednull.shotsfired.util.DropData@56fbe0fe, suffuse:xm7=net.marblednull.shotsfired.util.DropData@4c4fd274, suffuse:qbu191=net.marblednull.shotsfired.util.DropData@1a79eb1e, suffuse:n4=net.marblednull.shotsfired.util.DropData@60e50f5, suffuse:qbz951=net.marblednull.shotsfired.util.DropData@f7bbcda, suffuse:ash12=net.marblednull.shotsfired.util.DropData@3d150333, suffuse:aks74u=net.marblednull.shotsfired.util.DropData@68613e94, suffuse:pp19=net.marblednull.shotsfired.util.DropData@1c9c4295, suffuse:ump45=net.marblednull.shotsfired.util.DropData@4e53b0b0, suffuse:pkp=net.marblednull.shotsfired.util.DropData@5bca2ed2, rebel:hsp=net.marblednull.shotsfired.util.DropData@3a3e3ea1, rebel:lss=net.marblednull.shotsfired.util.DropData@44484b99, rebel:lpm2020=net.marblednull.shotsfired.util.DropData@174da590, rebel:asr=net.marblednull.shotsfired.util.DropData@1d7bb515, rebel:rs1=net.marblednull.shotsfired.util.DropData@56fb4b2d, rebel:csg19b=net.marblednull.shotsfired.util.DropData@50e9d6e8, gz:patriots=net.marblednull.shotsfired.util.DropData@2a729840, gz:classic_m1a=net.marblednull.shotsfired.util.DropData@6a614306, gz:m700_carbon=net.marblednull.shotsfired.util.DropData@664fcf44, gz:police_m4=net.marblednull.shotsfired.util.DropData@780f1bf3, gz:t81s=net.marblednull.shotsfired.util.DropData@46812c2a, gz:tactical_t81s=net.marblednull.shotsfired.util.DropData@26983e8f, gz:m16a2=net.marblednull.shotsfired.util.DropData@3e35f0f7, gz:military_p416=net.marblednull.shotsfired.util.DropData@3e65a441, gz:lightweight_m4=net.marblednull.shotsfired.util.DropData@714a2fdb, gz:black_market_akm=net.marblednull.shotsfired.util.DropData@16410b3b, gz:custom_p416_g3=net.marblednull.shotsfired.util.DropData@762f34c, gz:m4_exotic_t1=net.marblednull.shotsfired.util.DropData@14b6084d, gz:auga3cqc=net.marblednull.shotsfired.util.DropData@34a2c9f7, gz:lvoa_c=net.marblednull.shotsfired.util.DropData@2aa4048b, gz:m4_exotic_t2=net.marblednull.shotsfired.util.DropData@3acc6a00, gz:military_ak74=net.marblednull.shotsfired.util.DropData@1e9ce974, gz:tactical_sasg_12k=net.marblednull.shotsfired.util.DropData@3c537621, gz:cargo_terminal=net.marblednull.shotsfired.util.DropData@36d9ad7c, gz:sasg_12=net.marblednull.shotsfired.util.DropData@6f9c5dcd, gz:1st_vector45acp=net.marblednull.shotsfired.util.DropData@16b2de03, gz:pp19_01=net.marblednull.shotsfired.util.DropData@31f7408a, gz:mp5st=net.marblednull.shotsfired.util.DropData@4abea985, gz:tactical_pp19_01=net.marblednull.shotsfired.util.DropData@47c1e72a, gz:enhanced_pp19=net.marblednull.shotsfired.util.DropData@47036b17, gz:pp19=net.marblednull.shotsfired.util.DropData@4cfb906d, gz:t5smg=net.marblednull.shotsfired.util.DropData@73b6faf6, gz:aug_9mm=net.marblednull.shotsfired.util.DropData@3b06bb1d, gz:navy_mp5n=net.marblednull.shotsfired.util.DropData@678134b9, gz:mp5a2=net.marblednull.shotsfired.util.DropData@77e9a8dc, gz:black_market_rpk74=net.marblednull.shotsfired.util.DropData@334c9d9d, gz:t81lmg=net.marblednull.shotsfired.util.DropData@3d9c16ba, gz:classic_rpk74=net.marblednull.shotsfired.util.DropData@5356c94c, bf1:obrez=net.marblednull.shotsfired.util.DropData@694334b2, bf1:sw_model3=net.marblednull.shotsfired.util.DropData@3eb4ec72, bf1:tg1918=net.marblednull.shotsfired.util.DropData@634004d8, bf1:martini=net.marblednull.shotsfired.util.DropData@639ad55, bf1:m1916=net.marblednull.shotsfired.util.DropData@76afff84, bf1:vg15=net.marblednull.shotsfired.util.DropData@6fe14a5f, bf1:model10=net.marblednull.shotsfired.util.DropData@c64e5bf, bf1:smg0818=net.marblednull.shotsfired.util.DropData@477ca263, bf1:vp1915=net.marblednull.shotsfired.util.DropData@4ea636d7, bf1:lewis=net.marblednull.shotsfired.util.DropData@2b703eee, bf1:mg0815=net.marblednull.shotsfired.util.DropData@926f22, bf1:man_m95=net.marblednull.shotsfired.util.DropData@22dfaae9}}}
+[202월2026 15:07:35.059] [modloading-worker-0/INFO] [com.corrinedev.jsconf.JSConf/]: type = com.google.gson.internal.LinkedTreeMap
+[202월2026 15:07:35.094] [modloading-worker-0/INFO] [com.corrinedev.jsconf.JSConf/]: Config shotsfired-tacz-ejection-config.json was loaded, values = {Ejected Casing Data by GunId.=ConfigValue{element='Ejected Casing Data by GunId.', value={tacz:deagle=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:timeless50=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:glock_17=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:deagle_golden=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:m1911=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:cz75=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:b93r=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:p320=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:springfield1873=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:m700=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:ai_awp=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:m107=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:m95=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:sks_tactical=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:type_81=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:qbz_95=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:ak47=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:hk416d=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:m4a1=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:g36k=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:m16a1=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:spr15hb=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:hk_g3=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:m16a4=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:scar_l=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:scar_h=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:mk14=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:aug=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:db_short=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:db_long=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:m870=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:aa12=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:ump45=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:vector45=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:hk_mp5a5=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:uzi=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:p90=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:m249=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:rpk=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], tacz:minigun=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:tec9=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:tti2011=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:python=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:tt33=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:viper2011=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:aw50=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:gm6=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:m200=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:qbz951s=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:qbz192=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:an94=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:xm7=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:qbu191=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:n4=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:qbz951=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:ash12=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:aks74u=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:pp19=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:ump45=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], suffuse:pkp=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], rebel:hsp=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], rebel:lss=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], rebel:lpm2020=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], rebel:asr=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], rebel:rs1=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], rebel:csg19b=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:patriots=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:classic_m1a=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:m700_carbon=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:police_m4=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:t81s=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:tactical_t81s=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:m16a2=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:military_p416=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:lightweight_m4=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:black_market_akm=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:custom_p416_g3=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:m4_exotic_t1=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:auga3cqc=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:lvoa_c=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:m4_exotic_t2=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:military_ak74=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:tactical_sasg_12k=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:cargo_terminal=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:sasg_12=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:1st_vector45acp=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:pp19_01=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:mp5st=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:tactical_pp19_01=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:enhanced_pp19=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:pp19=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:t5smg=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:aug_9mm=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:navy_mp5n=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:mp5a2=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:black_market_rpk74=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:t81lmg=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], gz:classic_rpk74=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], bf1:obrez=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], bf1:sw_model3=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], bf1:tg1918=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], bf1:martini=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], bf1:m1916=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], bf1:vg15=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], bf1:model10=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], bf1:smg0818=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], bf1:vp1915=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], bf1:lewis=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], bf1:mg0815=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0], bf1:man_m95=EjectionInfo[velocity=0.2, isRight=true, rotationYawDeg=85.0, rotationPitchDeg=-45.0, rotationRollDeg=-0.25, offsetX=2.0, offsetY=-1.5, offsetZ=1.0]}}}
+[202월2026 15:07:35.097] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[202월2026 15:07:35.124] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.AnimalScaredAttack
+[202월2026 15:07:35.140] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature AnimalScaredAttack uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.156] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.AnimalsGroupFlee
+[202월2026 15:07:35.157] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature AnimalsGroupFlee uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.160] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.NotTemptedAnimals
+[202월2026 15:07:35.161] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature NotTemptedAnimals uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.165] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.blaze.BlazeAttack
+[202월2026 15:07:35.169] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature BlazeAttack uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.173] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.bugs.silverfish.SilverfishFeature
+[202월2026 15:07:35.174] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature SilverfishFeature uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.181] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.creeper.CreeperSwell
+[202월2026 15:07:35.194] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature CreeperSwell uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.247] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.drowned.DrownedSwimming
+[202월2026 15:07:35.249] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature DrownedSwimming uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.251] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.enderman.getoverhere.GetOverHere
+[202월2026 15:07:35.284] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.ghast.GhastShoot
+[202월2026 15:07:35.286] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature GhastShoot uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.289] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.PillagerFleeTarget
+[202월2026 15:07:35.293] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature PillagerFleeTarget uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.299] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.RavagerFeature
+[202월2026 15:07:35.300] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature RavagerFeature uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.303] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.illager.shoot.PillagerShoot
+[202월2026 15:07:35.307] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature PillagerShoot uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.315] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.BitingMobs
+[202월2026 15:07:35.319] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature BitingMobs uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.323] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.ItemDisruption
+[202월2026 15:07:35.324] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature ItemDisruption uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.329] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.Jump
+[202월2026 15:07:35.331] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature Jump uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.335] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.MeleeAttacking
+[202월2026 15:07:35.336] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature MeleeAttacking uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.340] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.OpenDoors
+[202월2026 15:07:35.345] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature OpenDoors uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.355] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.Spawning
+[202월2026 15:07:35.356] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature Spawning uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.358] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.WardenInteractions
+[202월2026 15:07:35.359] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature WardenInteractions uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.384] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.anticheese.AntiCheese
+[202월2026 15:07:35.385] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature AntiCheese uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.393] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.avoidexplosion.AvoidExplosions
+[202월2026 15:07:35.394] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature AvoidExplosions uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.410] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.breakanger.BreakAnger
+[202월2026 15:07:35.418] [modloading-worker-0/INFO] [com.leclowndu93150.corpsecurioscompat.Main/]: Hello from Corpse Curios Compat!
+[202월2026 15:07:35.433] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature BreakAnger uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.434] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.0, for MC 1.20.1 with MCP 20230612.114412
+[202월2026 15:07:35.434] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.0 Initialized
+[202월2026 15:07:35.464] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.fisher.FisherMobs
+[202월2026 15:07:35.480] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature FisherMobs uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.484] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.flee.Flee
+[202월2026 15:07:35.485] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature Flee uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.490] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.leap.Leap
+[202월2026 15:07:35.492] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature Leap uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.495] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.miner.MinerMobs
+[202월2026 15:07:35.501] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature MinerMobs uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.505] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.movement.Movement
+[202월2026 15:07:35.506] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature Movement uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.508] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.pearler.PearlerMobs
+[202월2026 15:07:35.511] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature PearlerMobs uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.515] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.riding.Riding
+[202월2026 15:07:35.516] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature Riding uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.523] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.mobs.targeting.Targeting
+[202월2026 15:07:35.529] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature Targeting uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.538] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.IronGolems
+[202월2026 15:07:35.539] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature IronGolems uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.543] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.Wolves
+[202월2026 15:07:35.543] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature Wolves uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.550] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.pets.snowgolem.SnowGolems
+[202월2026 15:07:35.551] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature SnowGolems uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.556] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.ShulkerArmor
+[202월2026 15:07:35.557] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature ShulkerArmor uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.558] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.ShulkerBullets
+[202월2026 15:07:35.561] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature ShulkerBullets uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.563] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.shulker.shulkerattack.ShulkerAttack
+[202월2026 15:07:35.564] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
+[202월2026 15:07:35.565] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature ShulkerAttack uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.568] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[202월2026 15:07:35.569] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[202월2026 15:07:35.569] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.SkeletonFleeTarget
+[202월2026 15:07:35.570] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature SkeletonFleeTarget uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.572] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.WitherSkeletons
+[202월2026 15:07:35.575] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature WitherSkeletons uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.579] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.shoot.SkeletonShoot
+[202월2026 15:07:35.582] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature SkeletonShoot uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.583] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.slime.Slimes
+[202월2026 15:07:35.585] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature Slimes uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.587] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.Misc
+[202월2026 15:07:35.588] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature Misc uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.592] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.webber.ThrowingWeb
+[202월2026 15:07:35.593] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature ThrowingWeb uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.598] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.villager.VillagerAttacking
+[202월2026 15:07:35.599] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature VillagerAttacking uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.602] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.warden.WardenFeature
+[202월2026 15:07:35.603] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature WardenFeature uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.607] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.ThirstyWitches
+[202월2026 15:07:35.608] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature ThirstyWitches uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.610] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.WitchFleeTarget
+[202월2026 15:07:35.611] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature WitchFleeTarget uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.614] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.darkart.DarkArtWitch
+[202월2026 15:07:35.615] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature DarkArtWitch uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.621] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.throwing.WitchPotionThrowing
+[202월2026 15:07:35.621] [modloading-worker-0/WARN] [insane96mcp.insanelib.InsaneLib/]: Feature WitchPotionThrowing uses deprecated @Label annotation. Requires migration to @LoadFeature
+[202월2026 15:07:35.725] [modloading-worker-0/INFO] [net.liopyu.entityjs.EntityJSMod/]: Loading EntityJS-Liopyu
+[202월2026 15:07:35.858] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[202월2026 15:07:35.863] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
+[202월2026 15:07:35.959] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Found 1 RS API injection point
+[202월2026 15:07:35.970] [modloading-worker-0/INFO] [com.refinedmods.refinedstorage.apiimpl.API/]: Injected RS API in com.refinedmods.refinedstorageaddons.RSAddons RSAPI
+[202월2026 15:07:36.095] [modloading-worker-0/WARN] [mixin/]: @Redirect conflict. Skipping recipeessentials.mixins.json:RecipeManagerMixin from mod recipeessentials->@Redirect::logErrorOnce(Lorg/slf4j/Logger;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V with priority 200, already redirected by modernfix-forge.mixins.json:perf.datapack_reload_exceptions.RecipeManagerMixin from mod modernfix->@Redirect::silenceException(Lorg/slf4j/Logger;Ljava/lang/String;Ljava/lang/Object;Ljava/lang/Object;)V with priority 2000
+[202월2026 15:07:36.214] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.BaseFeature
+[202월2026 15:07:36.254] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.FixesFeature
+[202월2026 15:07:36.263] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.TagsFeature
+[202월2026 15:07:36.392] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[202월2026 15:07:36.393] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[202월2026 15:07:36.393] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[202월2026 15:07:36.393] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[202월2026 15:07:36.393] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[202월2026 15:07:36.393] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[202월2026 15:07:36.393] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[202월2026 15:07:36.426] [modloading-worker-0/INFO] [Create: Interiors/]: Create: Interiors v0.5.6 initializing! Create version: 6.0.6 on platform: Forge
+[202월2026 15:07:36.697] [modloading-worker-0/INFO] [mixin/]: Renaming synthetic method lambda$injectAfterStaticInitialization$0()Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties; to md3c5d7d$immersivefixes$lambda$injectAfterStaticInitialization$0$0 in immersivefixes.mixins.json:MixinFluidProtection from mod immersivefixes
+[202월2026 15:07:36.711] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 8.3.
+[202월2026 15:07:36.752] [modloading-worker-0/INFO] [lostcities/]: Creating standard profiles into 'config/lostcities/profiles'
+[202월2026 15:07:36.803] [modloading-worker-0/INFO] [lostcities/]: Reading existing profiles from 'config/lostcities/profiles'
+[202월2026 15:07:36.824] [modloading-worker-0/INFO] [zeta/]: Doing super early config setup for zeta
+[202월2026 15:07:36.977] [modloading-worker-0/WARN] [mixinsquared-annotation-adjuster/]: Modified mixin "dev.uncandango.alltheleaks.mixin.core.main.RecipeCrawlHandlerMixin". Check debug logs for more information.
+[202월2026 15:07:36.980] [modloading-worker-0/WARN] [mixinsquared-annotation-adjuster/]: Modified mixin "dev.uncandango.alltheleaks.mixin.core.main.RecipeCrawlHandlerMixin". Check debug logs for more information.
+[202월2026 15:07:36.986] [modloading-worker-0/WARN] [mixinsquared-annotation-adjuster/]: Modified mixin "dev.uncandango.alltheleaks.mixin.core.main.RecipeCrawlHandlerMixin". Check debug logs for more information.
+[202월2026 15:07:37.245] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[202월2026 15:07:37.250] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id animal_pen:update_display_animal
+[202월2026 15:07:37.250] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[202월2026 15:07:37.253] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[202월2026 15:07:37.254] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id animal_pen:remove_display_animal
+[202월2026 15:07:37.257] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id animal_pen:update_configuration
+[202월2026 15:07:37.272] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id animal_pen:network/36ad2e2d017731fbb6ca7d23841726db
+[202월2026 15:07:37.281] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id animal_pen:network/cb7598b34e4f3152b6f643b68df9c7ba
+[202월2026 15:07:37.296] [modloading-worker-0/WARN] [mixin/]: @ModifyConstant conflict. Skipping packetfixer.v1_19_4.forge.mixins.json:v1_19_4_forge.ServerLoginPacketListenerImplMixin from mod packetfixer->@ModifyConstant::packetfixer$tick(I)I with priority 1000, already redirected by connectivity.mixins.json:ServerLoginNetHandlerMixin from mod connectivity->@ModifyConstant::loginTimeout(I)I with priority 1001
+[202월2026 15:07:37.300] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[202월2026 15:07:37.310] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[202월2026 15:07:37.320] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[202월2026 15:07:37.333] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[202월2026 15:07:37.341] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[202월2026 15:07:37.427] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[202월2026 15:07:37.441] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[202월2026 15:07:37.474] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin does not load on server side, skipping
+[202월2026 15:07:37.475] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[202월2026 15:07:37.475] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source createdieselgenerators
+[202월2026 15:07:37.488] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source exposure
+[202월2026 15:07:37.491] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source ftbxmodcompat
+[202월2026 15:07:37.501] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin does not have required mod ftbchunks loaded, skipping
+[202월2026 15:07:37.504] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.ftb.mods.ftbxmodcompat.ftbfiltersystem.kubejs.FFSKubeJSPlugin does not have required mod ftbfiltersystem loaded, skipping
+[202월2026 15:07:37.505] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source entityjs
+[202월2026 15:07:37.508] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs_create
+[202월2026 15:07:37.560] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id itemfilters:main/14e7fa1454283aec8ae811ef844ada28
+[202월2026 15:07:37.567] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id itemfilters:main/8f6a899247753217b9d86ab427a2b279
+[202월2026 15:07:37.696] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[202월2026 15:07:37.702] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[202월2026 15:07:37.707] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[202월2026 15:07:37.713] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[202월2026 15:07:37.719] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[202월2026 15:07:37.729] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[202월2026 15:07:37.737] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[202월2026 15:07:37.759] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:submit_task
+[202월2026 15:07:37.766] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_reward
+[202월2026 15:07:37.784] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:get_emergency_items
+[202월2026 15:07:37.802] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_all_rewards
+[202월2026 15:07:37.805] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_choice_reward
+[202월2026 15:07:37.874] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_pinned
+[202월2026 15:07:37.927] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_chapter_pinned
+[202월2026 15:07:37.927] [modloading-worker-0/INFO] [particular/]: I am quite particular about the effects I choose to add :3
+[202월2026 15:07:37.990] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_editing_mode
+[202월2026 15:07:38.009] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:force_save
+[202월2026 15:07:38.025] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:set_custom_image
+[202월2026 15:07:38.048] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source tacz
+[202월2026 15:07:38.055] [modloading-worker-0/INFO] [KubeJS/]: Done in 624.8 ms
+[202월2026 15:07:38.097] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:task_screen_config_resp
+[202월2026 15:07:38.106] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_progress
+[202월2026 15:07:38.128] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_object
+[202월2026 15:07:38.141] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_task_at
+[202월2026 15:07:38.146] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:delete_object
+[202월2026 15:07:38.154] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:edit_object
+[202월2026 15:07:38.162] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter
+[202월2026 15:07:38.175] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_quest
+[202월2026 15:07:38.184] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_chapter_group
+[202월2026 15:07:38.193] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter_group
+[202월2026 15:07:38.208] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_quest
+[202월2026 15:07:38.217] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_chapter_image
+[202월2026 15:07:38.221] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:sync_structures_request
+[202월2026 15:07:38.232] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:request_team_data
+[202월2026 15:07:38.342] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[202월2026 15:07:38.406] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[202월2026 15:07:38.564] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Quests] Enabled KubeJS integration
+[202월2026 15:07:38.633] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loading the EZVCSurvival configuration (initial load)...
+[202월2026 15:07:38.643] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: pistol -> speed: 1.0, range: 2.0
+[202월2026 15:07:38.644] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: sniper -> speed: 1.5, range: 8.0
+[202월2026 15:07:38.644] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: rifle -> speed: 1.25, range: 4.0
+[202월2026 15:07:38.644] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: shotgun -> speed: 1.1, range: 3.0
+[202월2026 15:07:38.644] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: smg -> speed: 1.0, range: 2.0
+[202월2026 15:07:38.644] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: rpg -> speed: 1.5, range: 6.0
+[202월2026 15:07:38.644] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: mg -> speed: 1.25, range: 4.0
+[202월2026 15:07:38.645] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: pistol -> speed: 1.0, range: 4.0
+[202월2026 15:07:38.645] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: sniper -> speed: 1.0, range: 5.0
+[202월2026 15:07:38.645] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: rifle -> speed: 1.0, range: 6.5
+[202월2026 15:07:38.645] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: shotgun -> speed: 1.0, range: 4.8
+[202월2026 15:07:38.646] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: smg -> speed: 1.0, range: 3.0
+[202월2026 15:07:38.646] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: rpg -> speed: 1.0, range: 10.0
+[202월2026 15:07:38.646] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: mg -> speed: 1.0, range: 8.0
+[202월2026 15:07:38.718] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Initializing Create Radar!
+[202월2026 15:07:38.726] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Items!
+[202월2026 15:07:38.759] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.6 initializing! Commit hash: 338bfa0aec952fa51656e8f61bd621ca9b3b2e00
+[202월2026 15:07:38.840] [modloading-worker-0/INFO] [net.liopyu.entityjs.EntityJSPlugin/]: Loading CGM-EntityJS compatibility
+[202월2026 15:07:38.865] [modloading-worker-0/INFO] [Create Deco/]: Registering items for Create Deco
+[202월2026 15:07:38.936] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering blocks!
+[202월2026 15:07:39.023] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering block entity types!
+[202월2026 15:07:39.029] [modloading-worker-0/INFO] [Create Deco/]: Registering blocks for Create Deco
+[202월2026 15:07:39.031] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering CreativeTabs!
+[202월2026 15:07:39.035] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Lang!
+[202월2026 15:07:39.079] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering CBC Compat Items!
+[202월2026 15:07:39.113] [modloading-worker-0/INFO] [YetAnotherConfigLib/]: Deserializing YACLConfig from 'C:\Users\USER\Documents\GitHub\newone\config\yacl.json5'
+[202월2026 15:07:39.163] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[202월2026 15:07:39.329] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[202월2026 15:07:39.336] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[202월2026 15:07:39.342] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
+[202월2026 15:07:39.440] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.110 s
+[202월2026 15:07:40.427] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:armors/tier_1.js in 0.101 s
+[202월2026 15:07:40.435] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:armors/tier_2.js in 0.007 s
+[202월2026 15:07:40.443] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:armors/tier_3.js in 0.006 s
+[202월2026 15:07:40.448] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:armors/tier_4.js in 0.004 s
+[202월2026 15:07:40.454] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:entity/attribute.js in 0.005 s
+[202월2026 15:07:40.454] [modloading-worker-0/INFO] [KubeJS Startup/]: example.js#5: Hello, World! (Loaded startup scripts)
+[202월2026 15:07:40.457] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:example.js in 0.002 s
+[202월2026 15:07:40.469] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:food/food_value.js in 0.011 s
+[202월2026 15:07:40.470] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:items/badges.js in 0.0 s
+[202월2026 15:07:40.471] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:items/bullet_casings.js in 0.0 s
+[202월2026 15:07:40.473] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:items/flyer.js in 0.0 s
+[202월2026 15:07:40.474] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:items/incomplete.js in 0.0 s
+[202월2026 15:07:40.477] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:items/materials.js in 0.0 s
+[202월2026 15:07:40.479] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:items/misc.js in 0.001 s
+[202월2026 15:07:40.481] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:items/molds.js in 0.001 s
+[202월2026 15:07:40.482] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:items/skill_books.js in 0.0 s
+[202월2026 15:07:40.493] [modloading-worker-0/INFO] [KubeJS Startup/]: logics/abyss_portal.js#1: Loaded Java class 'net.kyrptonaught.customportalapi.api.CustomPortalBuilder'
+[202월2026 15:07:40.493] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:logics/abyss_portal.js in 0.011 s
+[202월2026 15:07:40.496] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:logics/ore_removal.js in 0.002 s
+[202월2026 15:07:40.499] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:removals.js in 0.001 s
+[202월2026 15:07:40.500] [modloading-worker-0/INFO] [KubeJS Startup/]: weapons/axes.js#1: Loaded Java class 'java.util.UUID'
+[202월2026 15:07:40.502] [modloading-worker-0/INFO] [KubeJS Startup/]: weapons/axes.js#3: Loaded Java class 'java.lang.String'
+[202월2026 15:07:40.503] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:weapons/axes.js in 0.003 s
+[202월2026 15:07:40.504] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:weapons/bats.js in 0.001 s
+[202월2026 15:07:40.506] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:weapons/fists.js in 0.001 s
+[202월2026 15:07:40.507] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:weapons/hammers.js in 0.001 s
+[202월2026 15:07:40.509] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:weapons/hoes.js in 0.0 s
+[202월2026 15:07:40.511] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:weapons/knives.js in 0.001 s
+[202월2026 15:07:40.513] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:weapons/maces.js in 0.001 s
+[202월2026 15:07:40.515] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:weapons/machetes.js in 0.0 s
+[202월2026 15:07:40.516] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:weapons/misc.js in 0.001 s
+[202월2026 15:07:40.517] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:weapons/shield.js in 0.001 s
+[202월2026 15:07:40.519] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:weapons/shovels.js in 0.0 s
+[202월2026 15:07:40.520] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:weapons/swords.js in 0.0 s
+[202월2026 15:07:40.529] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 30/30 KubeJS startup scripts in 1.08 s with 0 errors and 0 warnings
+[202월2026 15:07:40.705] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[202월2026 15:07:40.719] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[202월2026 15:07:41.537] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[202월2026 15:07:41.538] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 0 injected RegistryDataLoader worldgen registries
+[202월2026 15:07:42.891] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/twin_autocannon/contraption/MountedTwinAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.twin_autocannon.contraption.MountedTwinAutocannonContraption)
+[202월2026 15:07:42.893] [main/WARN] [mixin/]: Error loading class: com/dsvv/cbcat/cannon/heavy_autocannon/contraption/MountedHeavyAutocannonContraption (java.lang.ClassNotFoundException: com.dsvv.cbcat.cannon.heavy_autocannon.contraption.MountedHeavyAutocannonContraption)
+[202월2026 15:07:45.252] [main/INFO] [net.mehvahdjukaar.vsc.VSC/]: Initialized slab sets in: 65 ms
+[202월2026 15:07:45.278] [main/INFO] [Moonlight/]: Initialized block sets in 91ms
+[202월2026 15:07:45.412] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[202월2026 15:07:45.413] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[202월2026 15:07:45.413] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[202월2026 15:07:45.413] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[202월2026 15:07:45.415] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[202월2026 15:07:45.415] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[202월2026 15:07:45.415] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[202월2026 15:07:45.415] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[202월2026 15:07:45.417] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:mule] was not realized!
+[202월2026 15:07:45.418] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / vinery:wandering_winemaker] was not realized!
+[202월2026 15:07:45.418] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[202월2026 15:07:45.418] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[202월2026 15:07:45.422] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[202월2026 15:07:45.423] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / bakery:wandering_baker] was not realized!
+[202월2026 15:07:45.425] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[202월2026 15:07:45.428] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[202월2026 15:07:46.099] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[202월2026 15:07:46.099] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[202월2026 15:07:46.099] [main/WARN] [dev.architectury.registry.registries.forge.RegistrarManagerImpl/]: Registry entry listened Registry Entry [minecraft:entity_type / artifacts:mimic] was not realized!
+[202월2026 15:07:46.400] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[202월2026 15:07:46.402] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[202월2026 15:07:47.952] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.EvolvedInfected.Busser from class com.Harbinger.Spore.Sentities.EvolvedInfected.Scamper
+[202월2026 15:07:47.953] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.EvolvedInfected.Busser from class com.Harbinger.Spore.Sentities.Organoids.Vigil
+[202월2026 15:07:47.954] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.EvolvedInfected.Busser from class com.Harbinger.Spore.Sentities.Organoids.Brauerei
+[202월2026 15:07:47.954] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.BaseEntities.Infected from class com.Harbinger.Spore.Sentities.BaseEntities.Hyper
+[202월2026 15:07:48.319] [main/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loading the EZVCSurvival configuration (initial load)...
+[202월2026 15:07:48.319] [main/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: pistol -> speed: 1.0, range: 2.0
+[202월2026 15:07:48.319] [main/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: sniper -> speed: 1.5, range: 8.0
+[202월2026 15:07:48.319] [main/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: rifle -> speed: 1.25, range: 4.0
+[202월2026 15:07:48.320] [main/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: shotgun -> speed: 1.1, range: 3.0
+[202월2026 15:07:48.320] [main/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: smg -> speed: 1.0, range: 2.0
+[202월2026 15:07:48.320] [main/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: rpg -> speed: 1.5, range: 6.0
+[202월2026 15:07:48.320] [main/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: mg -> speed: 1.25, range: 4.0
+[202월2026 15:07:48.320] [main/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: pistol -> speed: 1.0, range: 4.0
+[202월2026 15:07:48.320] [main/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: sniper -> speed: 1.0, range: 5.0
+[202월2026 15:07:48.320] [main/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: rifle -> speed: 1.0, range: 6.5
+[202월2026 15:07:48.320] [main/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: shotgun -> speed: 1.0, range: 4.8
+[202월2026 15:07:48.320] [main/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: smg -> speed: 1.0, range: 3.0
+[202월2026 15:07:48.320] [main/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: rpg -> speed: 1.0, range: 10.0
+[202월2026 15:07:48.320] [main/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: mg -> speed: 1.0, range: 8.0
+[202월2026 15:07:48.520] [modloading-worker-0/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading Open Parties and Claims!
+[202월2026 15:07:48.521] [modloading-worker-0/INFO] [Better Compatibility Checker/]: Better Compatibility Checker setup
+[202월2026 15:07:48.521] [modloading-worker-0/INFO] [rsmixin/]: Loaded config: enableDebugLogging=false, enableThrottle=true, throttleInterval=20, enableBypassFastNodes=true, enableLoadRescan=true, loadRescanDelay=20, enableConduitPlacementFix=true, conduitPlacementRescanDelay=10, enableLazyEnergy=true, enableHashSetOptimize=true, enableSkipUnloaded=true, enableDynamicNodeSleep=true, enableDynamicCraftingBypass=true, enableConnectedNodeTickOptimize=true, enableEnderioRsFix=true, enableEnderioConduitTypedBackup=true, enableRebornstorageCrafterFix=true
+[202월2026 15:07:48.533] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[202월2026 15:07:48.548] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: Global Forge version check system disabled, no further processing.
+[202월2026 15:07:48.566] [modloading-worker-0/INFO] [CorgiLib/]: Initializing network...
+[202월2026 15:07:48.601] [modloading-worker-0/INFO] [CorgiLib/]: Initialized network!
+[202월2026 15:07:48.604] [modloading-worker-0/INFO] [com.recipeessentials.RecipeEssentials/]: recipeessentials mod initialized
+[202월2026 15:07:48.606] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[202월2026 15:07:48.628] [modloading-worker-0/INFO] [incontrol/]: Enabling support for Lost Cities
+[202월2026 15:07:48.629] [modloading-worker-0/INFO] [incontrol/]: Enabling support for Lost Cities
+[202월2026 15:07:48.629] [modloading-worker-0/INFO] [incontrol/]: Enabling support for Serene Seasons
+[202월2026 15:07:48.629] [modloading-worker-0/INFO] [incontrol/]: Enabling support for CustomNPCs
+[202월2026 15:07:48.825] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: pistol -> speed: 1.0, range: 2.0
+[202월2026 15:07:48.825] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: sniper -> speed: 1.5, range: 8.0
+[202월2026 15:07:48.825] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: rifle -> speed: 1.25, range: 4.0
+[202월2026 15:07:48.825] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: shotgun -> speed: 1.1, range: 3.0
+[202월2026 15:07:48.825] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: smg -> speed: 1.0, range: 2.0
+[202월2026 15:07:48.825] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: rpg -> speed: 1.5, range: 6.0
+[202월2026 15:07:48.825] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded modifier for gun: mg -> speed: 1.25, range: 4.0
+[202월2026 15:07:48.825] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: pistol -> speed: 1.0, range: 4.0
+[202월2026 15:07:48.826] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: sniper -> speed: 1.0, range: 5.0
+[202월2026 15:07:48.826] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: rifle -> speed: 1.0, range: 6.5
+[202월2026 15:07:48.826] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: shotgun -> speed: 1.0, range: 4.8
+[202월2026 15:07:48.826] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: smg -> speed: 1.0, range: 3.0
+[202월2026 15:07:48.826] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: rpg -> speed: 1.0, range: 10.0
+[202월2026 15:07:48.826] [modloading-worker-0/INFO] [com.armilp.ezvcsurvival.EZVCSurvival/]: Loaded pointblank modifier for gun: mg -> speed: 1.0, range: 8.0
+[202월2026 15:07:48.852] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[202월2026 15:07:48.864] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
+[202월2026 15:07:48.865] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[202월2026 15:07:48.868] [modloading-worker-0/INFO] [tv.mapper.mapperbase.MapperBase/]: Mapper Base setup started! Thank you for using my mods!
+[202월2026 15:07:48.868] [modloading-worker-0/INFO] [tv.mapper.embellishcraft.EmbellishCraft/]: EmbellishCraft: setup started.
+[202월2026 15:07:48.904] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
+[202월2026 15:07:48.906] [modloading-worker-0/INFO] [com.jkvin114.displaydelight.DisplayDelight/]: HELLO FROM COMMON SETUP
+[202월2026 15:07:48.911] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for 'ezvcsurvival'
+[202월2026 15:07:48.943] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[202월2026 15:07:48.943] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 snowball = 1 snow_block
+[202월2026 15:07:48.943] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 glowstone_dust = 1 glowstone
+[202월2026 15:07:48.943] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 brick = 1 bricks
+[202월2026 15:07:48.943] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 nether_brick = 1 nether_bricks
+[202월2026 15:07:48.943] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 nether_wart = 1 nether_wart_block
+[202월2026 15:07:48.943] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 quartz = 1 quartz_block
+[202월2026 15:07:48.945] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 9 melon_slice = 1 melon
+[202월2026 15:07:48.945] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 sand = 1 sandstone
+[202월2026 15:07:48.945] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 red_sand = 1 red_sandstone
+[202월2026 15:07:48.948] [modloading-worker-0/INFO] [com.jaquadro.minecraft.storagedrawers.StorageDrawers/]: New compacting rule 4 clay_ball = 1 clay
+[202월2026 15:07:48.950] [modloading-worker-0/INFO] [com.happysg.radar.CreateRadar/]: Registering Display Sources!
+[202월2026 15:07:49.057] [modloading-worker-0/INFO] [FTB Library/]: Setting game stages provider implementation to: KubeJS Stages
+[202월2026 15:07:49.057] [modloading-worker-0/INFO] [FTB XMod Compat/]: Chose [KubeJS Stages] as the active game stages implementation
+[202월2026 15:07:49.059] [modloading-worker-0/INFO] [FTB XMod Compat/]: Chose [FALLBACK] as the active permissions implementation
+[202월2026 15:07:49.060] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Quests] recipe helper provider is [JEI]
+[202월2026 15:07:49.063] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Quests] Enabled Item Filters integration
+[202월2026 15:07:49.233] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:aiming for minecraft:player
+[202월2026 15:07:49.233] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:reloading for minecraft:player
+[202월2026 15:07:49.233] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:shooting for minecraft:player
+[202월2026 15:07:49.251] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[202월2026 15:07:49.251] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[202월2026 15:07:49.251] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[202월2026 15:07:49.251] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[202월2026 15:07:49.252] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[202월2026 15:07:49.252] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[202월2026 15:07:49.252] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[202월2026 15:07:49.278] [main/INFO] [zeta/]: Common setup: Performing initial refresh of zeta's config on thread 'main'
+[202월2026 15:07:49.278] [main/INFO] [zeta/]: 'zeta' is enabling Zeta's piston structure resolver.
+[202월2026 15:07:49.279] [main/INFO] [zeta/]: Waiting for server start before accepting filewatcher changes to zeta's config
+[202월2026 15:07:49.348] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[202월2026 15:07:49.389] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[202월2026 15:07:49.390] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[202월2026 15:07:49.390] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[202월2026 15:07:49.390] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[202월2026 15:07:49.391] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[202월2026 15:07:49.391] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[202월2026 15:07:49.391] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[202월2026 15:07:49.391] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[202월2026 15:07:49.391] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:throwable_using for minecraft:living_entity
+[202월2026 15:07:49.438] [main/INFO] [Moonlight/]: Initialized color sets in 34ms
+[202월2026 15:07:49.459] [main/INFO] [com.happysg.radar.CreateRadar/]: Registered contraption type 'create_radar:radar_bearing'
+[202월2026 15:07:49.606] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[202월2026 15:07:49.607] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[202월2026 15:07:49.631] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[202월2026 15:07:49.631] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[202월2026 15:07:49.930] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor sets and bonuses
+[202월2026 15:07:49.938] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 70 compatible attributes.
+[202월2026 15:07:49.943] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 85 values from config.
+[202월2026 15:07:49.947] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.anarchist.title
+[202월2026 15:07:49.950] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 85 entries.
+[202월2026 15:07:49.950] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 85 attributes.
+[202월2026 15:07:49.956] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.army_general.title
+[202월2026 15:07:49.957] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.national_army.title
+[202월2026 15:07:49.958] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.un_army.title
+[202월2026 15:07:49.958] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.bombsquad.title
+[202월2026 15:07:49.959] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.construction.title
+[202월2026 15:07:49.960] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.fighter.title
+[202월2026 15:07:49.960] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.fire_fighter.title
+[202월2026 15:07:49.961] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.football.title
+[202월2026 15:07:49.961] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.forest_guard.title
+[202월2026 15:07:49.963] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.forest_ghillie.title
+[202월2026 15:07:49.963] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.sand_ghillie.title
+[202월2026 15:07:49.965] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.snow_ghillie.title
+[202월2026 15:07:49.966] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.radiation.title
+[202월2026 15:07:49.966] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.hunting.title
+[202월2026 15:07:49.967] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.juggernaut.title
+[202월2026 15:07:49.967] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.military_riot.title
+[202월2026 15:07:49.968] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.military_urban.title
+[202월2026 15:07:49.968] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.nurse.title
+[202월2026 15:07:49.969] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.police.title
+[202월2026 15:07:49.970] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.royal_police.title
+[202월2026 15:07:49.970] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.soldier.title
+[202월2026 15:07:49.971] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.spec_ops.title
+[202월2026 15:07:49.971] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.swat.title
+[202월2026 15:07:49.972] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.swat_riot.title
+[202월2026 15:07:49.972] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.biohazard.title
+[202월2026 15:07:49.973] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Loading armor set: armors.hazmat.title
+[202월2026 15:07:49.973] [modloading-worker-0/INFO] [spacecatasb/]: ASB MESSAGE: Finished loading a total of 27 armor sets and bonuses with 0 errors.
+[202월2026 15:07:49.975] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id spacecatasb:networking_channel/695c919422d23ac1913883a5d4c7eaa6
+[202월2026 15:07:49.978] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id spacecatasb:networking_channel/e12f8dbf5c503667968bd7f26c6d6251
+[202월2026 15:07:51.584] [main/INFO] [dsp/]: Default server properties injection ignored as it has already been run. This is not an error. This is correct behaviour.
+[202월2026 15:07:51.603] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[202월2026 15:07:52.241] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/USER/Documents/GitHub/newone/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23575!/assets/.mcassetsroot' uses unexpected schema
+[202월2026 15:07:52.241] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/USER/Documents/GitHub/newone/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23575!/data/.mcassetsroot' uses unexpected schema
+[202월2026 15:07:52.542] [main/INFO] [com.simibubi.create.Create/]: Created 472 recipes which will be injected into the game
+[202월2026 15:07:52.549] [main/INFO] [com.simibubi.create.Create/]: Created 22 tags which will be injected into the game
+[202월2026 15:07:53.675] [main/INFO] [tacz/GunPackFinder]: Start scanning for gun packs in C:\Users\USER\Documents\GitHub\newone\tacz
+[202월2026 15:07:53.680] [main/INFO] [tacz/GunPackFinder]: - bf1_default_gun, Main namespace: bf1
+[202월2026 15:07:53.680] [main/INFO] [tacz/GunPackFinder]: - gucci_attachments_default_gun, Main namespace: gucci_attachments
+[202월2026 15:07:53.680] [main/INFO] [tacz/GunPackFinder]: - gz_default_gun, Main namespace: gz
+[202월2026 15:07:53.680] [main/INFO] [tacz/GunPackFinder]: - rebel_default_gun, Main namespace: rebel
+[202월2026 15:07:53.681] [main/INFO] [tacz/GunPackFinder]: - suffuse_default_gun, Main namespace: suffuse
+[202월2026 15:07:53.681] [main/INFO] [tacz/GunPackFinder]: - tacz_default_gun, Main namespace: tacz
+[202월2026 15:07:53.681] [main/INFO] [tacz/GunPackFinder]: Found 6 possible gunpack(s) and added them to resource set.
+[202월2026 15:07:54.234] [main/INFO] [Moonlight/]: Generated runtime resources for 1 packs in a total of: 74 ms
+[202월2026 15:07:54.276] [main/INFO] [Moonlight/]: Generated runtime resources for 1 packs in a total of: 23 ms
+[202월2026 15:07:55.111] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: biomesize.json
+[202월2026 15:07:58.628] [main/INFO] [placebo/]: Registered 1 additional loot tables.
+[202월2026 15:07:59.184] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/brass_ingot recipe (createaddition:rolling/brass_ingot) specified a duration. Durations have no impact on this type of recipe.
+[202월2026 15:07:59.194] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_ingot recipe (createaddition:rolling/copper_ingot) specified a duration. Durations have no impact on this type of recipe.
+[202월2026 15:07:59.248] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_plate recipe (createaddition:rolling/iron_plate) specified a duration. Durations have no impact on this type of recipe.
+[202월2026 15:07:59.253] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_plate recipe (createaddition:rolling/gold_plate) specified a duration. Durations have no impact on this type of recipe.
+[202월2026 15:07:59.263] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/copper_plate recipe (createaddition:rolling/copper_plate) specified a duration. Durations have no impact on this type of recipe.
+[202월2026 15:07:59.263] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/aluminum_plate recipe (createaddition:rolling/aluminum_plate) specified a duration. Durations have no impact on this type of recipe.
+[202월2026 15:07:59.278] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/steel_ingot recipe (createaddition:rolling/steel_ingot) specified a duration. Durations have no impact on this type of recipe.
+[202월2026 15:07:59.279] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_plate recipe (createaddition:rolling/electrum_plate) specified a duration. Durations have no impact on this type of recipe.
+[202월2026 15:07:59.290] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/aluminum_ingot recipe (createaddition:rolling/aluminum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[202월2026 15:07:59.294] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/steel_plate recipe (createaddition:rolling/steel_plate) specified a duration. Durations have no impact on this type of recipe.
+[202월2026 15:07:59.305] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/straw recipe (createaddition:rolling/straw) specified a duration. Durations have no impact on this type of recipe.
+[202월2026 15:07:59.313] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/lead_plate recipe (createaddition:rolling/lead_plate) specified a duration. Durations have no impact on this type of recipe.
+[202월2026 15:07:59.316] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/iron_ingot recipe (createaddition:rolling/iron_ingot) specified a duration. Durations have no impact on this type of recipe.
+[202월2026 15:07:59.356] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/gold_ingot recipe (createaddition:rolling/gold_ingot) specified a duration. Durations have no impact on this type of recipe.
+[202월2026 15:07:59.356] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom createaddition:rolling/electrum_ingot recipe (createaddition:rolling/electrum_ingot) specified a duration. Durations have no impact on this type of recipe.
+[202월2026 15:08:02.134] [KubeJS Recipe Event Worker 0/WARN] [com.simibubi.create.Create/]: Your custom create:compacting recipe (deceasedcraft:compacting/seed_oil) has more item inputs (10) than supported (9).
+[202월2026 15:08:02.168] [main/INFO] [ModernFix/]: Clearing KubeJS recipe lists...
+[202월2026 15:08:02.275] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement animal_pen:grant_book_on_first_join: Advancement criteria cannot be empty
+[202월2026 15:08:02.301] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement parcool:grant_parcool_guide: Advancement criteria cannot be empty
+[202월2026 15:08:02.358] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 11424 advancements
+[202월2026 15:08:02.369] [main/INFO] [placebo/]: Registered 0 additional recipes.
+[202월2026 15:08:02.382] [main/INFO] [io.github.mortuusars.exposure.Exposure/]: Loading exposure lenses:
+[202월2026 15:08:02.387] [main/INFO] [io.github.mortuusars.exposure.Exposure/]: Lens [exposure:spyglass, FocalRange[min=55, max=200]] added.
+[202월2026 15:08:02.464] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 23 temperature consumables
+[202월2026 15:08:02.471] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 0 temperature consumable blocks
+[202월2026 15:08:02.479] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 23 temperature blocks
+[202월2026 15:08:02.487] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 62 temperature items
+[202월2026 15:08:02.492] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 54 temperature biomes
+[202월2026 15:08:02.497] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 10 temperature fuel items
+[202월2026 15:08:02.503] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 3 temperature dimensions
+[202월2026 15:08:02.504] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 1 temperature mounts
+[202월2026 15:08:02.505] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 0 temperature origins
+[202월2026 15:08:02.518] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 102 thirst consumables
+[202월2026 15:08:02.525] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 4 thirst blocks
+[202월2026 15:08:02.534] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 22 body parts damage sources
+[202월2026 15:08:02.540] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 6 body healing consumables
+[202월2026 15:08:02.548] [main/INFO] [sfiomn.legendarysurvivaloverhaul.LegendarySurvivalOverhaul/]: Loaded 4 body part resistance items
+[202월2026 15:08:02.562] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 14 curio slots
+[202월2026 15:08:02.572] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[202월2026 15:08:02.576] [main/INFO] [lv.id.bonne.animalpen.AnimalPen/]: Loaded 36 animal food entries.
+[202월2026 15:08:02.972] [main/INFO] [Diet/]: Loaded 5 diet groups
+[202월2026 15:08:02.995] [main/INFO] [Diet/]: Loaded 1 diet suites
+[202월2026 15:08:03.054] [main/INFO] [placebo/]: Registered 0 gear_sets.
+[202월2026 15:08:03.065] [main/INFO] [hordes/]: Loaded entity zombie_extreme:infected_military as entity.zombie_extreme.infected_military with weight 25, min day 0 and max day 0
+[202월2026 15:08:03.067] [main/INFO] [hordes/]: Loaded entity undead_revamp2:bigsucker as entity.undead_revamp2.bigsucker with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.067] [main/INFO] [hordes/]: Loaded entity zombie_extreme:inflated as entity.zombie_extreme.inflated with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.067] [main/INFO] [hordes/]: Loaded entity zombie_extreme:goon as entity.zombie_extreme.goon with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.068] [main/INFO] [hordes/]: Loaded entity zombie_extreme:zero_patient as entity.zombie_extreme.zero_patient with weight 2, min day 0 and max day 0
+[202월2026 15:08:03.069] [main/INFO] [hordes/]: loaded horde table hordes:mobs_normal_210
+[202월2026 15:08:03.069] [main/INFO] [hordes/]: Loaded entity zombie_extreme:infected_military as entity.zombie_extreme.infected_military with weight 25, min day 0 and max day 0
+[202월2026 15:08:03.069] [main/INFO] [hordes/]: Loaded entity undead_revamp2:bigsucker as entity.undead_revamp2.bigsucker with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.070] [main/INFO] [hordes/]: Loaded entity zombie_extreme:inflated as entity.zombie_extreme.inflated with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.070] [main/INFO] [hordes/]: Loaded entity undead_revamp2:clogger as entity.undead_revamp2.clogger with weight 2, min day 0 and max day 0
+[202월2026 15:08:03.070] [main/INFO] [hordes/]: loaded horde table hordes:mobs_normal_255
+[202월2026 15:08:03.070] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 25, min day 0 and max day 0
+[202월2026 15:08:03.071] [main/INFO] [hordes/]: Loaded entity undead_revamp2:sucker as entity.undead_revamp2.sucker with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.071] [main/INFO] [hordes/]: Loaded entity undead_revamp2:thesmoker as entity.undead_revamp2.thesmoker with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.071] [main/INFO] [hordes/]: Loaded entity undead_revamp2:thehunter as entity.undead_revamp2.thehunter with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.072] [main/INFO] [hordes/]: loaded horde table hordes:mobs_normal_60
+[202월2026 15:08:03.072] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 25, min day 0 and max day 0
+[202월2026 15:08:03.072] [main/INFO] [hordes/]: Loaded entity undead_revamp2:sucker as entity.undead_revamp2.sucker with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.072] [main/INFO] [hordes/]: Loaded entity zombie_extreme:inflated as entity.zombie_extreme.inflated with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.073] [main/INFO] [hordes/]: Loaded entity undead_revamp2:thegliter as entity.undead_revamp2.thegliter with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.073] [main/INFO] [hordes/]: Loaded entity undead_revamp2:thepregnant as entity.undead_revamp2.thepregnant with weight 3, min day 0 and max day 0
+[202월2026 15:08:03.073] [main/INFO] [hordes/]: loaded horde table hordes:mobs_normal_120
+[202월2026 15:08:03.074] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 25, min day 0 and max day 0
+[202월2026 15:08:03.074] [main/INFO] [hordes/]: Loaded entity undead_revamp2:sucker as entity.undead_revamp2.sucker with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.074] [main/INFO] [hordes/]: Loaded entity undead_revamp2:the_moonflower as entity.undead_revamp2.the_moonflower with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.074] [main/INFO] [hordes/]: Loaded entity undead_revamp2:thepregnant as entity.undead_revamp2.thepregnant with weight 3, min day 0 and max day 0
+[202월2026 15:08:03.075] [main/INFO] [hordes/]: loaded horde table hordes:mobs_normal_90
+[202월2026 15:08:03.075] [main/INFO] [hordes/]: Loaded entity zombie_extreme:infected_military as entity.zombie_extreme.infected_military with weight 25, min day 0 and max day 0
+[202월2026 15:08:03.075] [main/INFO] [hordes/]: Loaded entity undead_revamp2:bigsucker as entity.undead_revamp2.bigsucker with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.075] [main/INFO] [hordes/]: Loaded entity zombie_extreme:inflated as entity.zombie_extreme.inflated with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.075] [main/INFO] [hordes/]: Loaded entity zombie_extreme:goon as entity.zombie_extreme.goon with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.075] [main/INFO] [hordes/]: Loaded entity zombie_extreme:revived as entity.zombie_extreme.revived with weight 3, min day 0 and max day 0
+[202월2026 15:08:03.075] [main/INFO] [hordes/]: loaded horde table hordes:mobs_normal_165
+[202월2026 15:08:03.076] [main/INFO] [hordes/]: Loaded entity zombie_extreme:infected_military as entity.zombie_extreme.infected_military with weight 25, min day 0 and max day 0
+[202월2026 15:08:03.077] [main/INFO] [hordes/]: Loaded entity undead_revamp2:bigsucker as entity.undead_revamp2.bigsucker with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.077] [main/INFO] [hordes/]: Loaded entity zombie_extreme:inflated as entity.zombie_extreme.inflated with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.077] [main/INFO] [hordes/]: Loaded entity undead_revamp2:thegliter as entity.undead_revamp2.thegliter with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.078] [main/INFO] [hordes/]: Loaded entity undead_revamp2:thepregnant as entity.undead_revamp2.thepregnant with weight 3, min day 0 and max day 0
+[202월2026 15:08:03.078] [main/INFO] [hordes/]: loaded horde table hordes:mobs_normal_150
+[202월2026 15:08:03.078] [main/INFO] [hordes/]: Loaded entity zombie_extreme:infected_military as entity.zombie_extreme.infected_military with weight 25, min day 0 and max day 0
+[202월2026 15:08:03.079] [main/INFO] [hordes/]: Loaded entity undead_revamp2:bigsucker as entity.undead_revamp2.bigsucker with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.079] [main/INFO] [hordes/]: Loaded entity zombie_extreme:inflated as entity.zombie_extreme.inflated with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.079] [main/INFO] [hordes/]: Loaded entity zombie_extreme:goon as entity.zombie_extreme.goon with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.080] [main/INFO] [hordes/]: Loaded entity zombie_extreme:demolisher as entity.zombie_extreme.demolisher with weight 3, min day 0 and max day 0
+[202월2026 15:08:03.080] [main/INFO] [hordes/]: loaded horde table hordes:mobs_normal_180
+[202월2026 15:08:03.080] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 30, min day 0 and max day 0
+[202월2026 15:08:03.080] [main/INFO] [hordes/]: loaded horde table hordes:mobs_normal_15
+[202월2026 15:08:03.081] [main/INFO] [hordes/]: Loaded entity zombie_extreme:infected_military as entity.zombie_extreme.infected_military with weight 25, min day 0 and max day 0
+[202월2026 15:08:03.081] [main/INFO] [hordes/]: Loaded entity undead_revamp2:bigsucker as entity.undead_revamp2.bigsucker with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.081] [main/INFO] [hordes/]: Loaded entity zombie_extreme:inflated as entity.zombie_extreme.inflated with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.081] [main/INFO] [hordes/]: Loaded entity undead_revamp2:clogger as entity.undead_revamp2.clogger with weight 3, min day 0 and max day 0
+[202월2026 15:08:03.082] [main/INFO] [hordes/]: Loaded entity zombie_extreme:zero_patient as entity.zombie_extreme.zero_patient with weight 3, min day 0 and max day 0
+[202월2026 15:08:03.082] [main/INFO] [hordes/]: Loaded entity zombie_extreme:rat_king as entity.zombie_extreme.rat_king with weight 3, min day 0 and max day 0
+[202월2026 15:08:03.082] [main/INFO] [hordes/]: Loaded entity undead_revamp2:theheavy as entity.undead_revamp2.theheavy with weight 3, min day 0 and max day 0
+[202월2026 15:08:03.082] [main/INFO] [hordes/]: loaded horde table hordes:mobs_normal_405
+[202월2026 15:08:03.082] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 25, min day 0 and max day 0
+[202월2026 15:08:03.084] [main/INFO] [hordes/]: Loaded entity undead_revamp2:bomber as entity.undead_revamp2.bomber with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.084] [main/INFO] [hordes/]: Loaded entity undead_revamp2:thesmoker as entity.undead_revamp2.thesmoker with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.084] [main/INFO] [hordes/]: Loaded entity undead_revamp2:thehunter as entity.undead_revamp2.thehunter with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.084] [main/INFO] [hordes/]: loaded horde table hordes:mobs_normal_45
+[202월2026 15:08:03.085] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 30, min day 0 and max day 0
+[202월2026 15:08:03.085] [main/INFO] [hordes/]: loaded horde table hordes:fallback
+[202월2026 15:08:03.086] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 30, min day 0 and max day 0
+[202월2026 15:08:03.086] [main/INFO] [hordes/]: Loaded entity zombie_extreme:infected_police as entity.zombie_extreme.infected_police with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.086] [main/INFO] [hordes/]: Loaded entity undead_revamp2:thesmoker as entity.undead_revamp2.thesmoker with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.087] [main/INFO] [hordes/]: loaded horde table hordes:mobs_normal_30
+[202월2026 15:08:03.087] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 25, min day 0 and max day 0
+[202월2026 15:08:03.087] [main/INFO] [hordes/]: Loaded entity undead_revamp2:sucker as entity.undead_revamp2.sucker with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.087] [main/INFO] [hordes/]: Loaded entity undead_revamp2:thegliter as entity.undead_revamp2.thegliter with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.088] [main/INFO] [hordes/]: Loaded entity undead_revamp2:thepregnant as entity.undead_revamp2.thepregnant with weight 3, min day 0 and max day 0
+[202월2026 15:08:03.088] [main/INFO] [hordes/]: loaded horde table hordes:mobs_normal_105
+[202월2026 15:08:03.088] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 25, min day 0 and max day 0
+[202월2026 15:08:03.088] [main/INFO] [hordes/]: Loaded entity undead_revamp2:sucker as entity.undead_revamp2.sucker with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.089] [main/INFO] [hordes/]: Loaded entity undead_revamp2:the_moonflower as entity.undead_revamp2.the_moonflower with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.089] [main/INFO] [hordes/]: Loaded entity zombie_extreme:runner as entity.zombie_extreme.runner with weight 3, min day 0 and max day 0
+[202월2026 15:08:03.089] [main/INFO] [hordes/]: loaded horde table hordes:mobs_normal_75
+[202월2026 15:08:03.089] [main/INFO] [hordes/]: Loaded entity minecraft:zombie as entity.minecraft.zombie with weight 25, min day 0 and max day 0
+[202월2026 15:08:03.090] [main/INFO] [hordes/]: Loaded entity undead_revamp2:bigsucker as entity.undead_revamp2.bigsucker with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.090] [main/INFO] [hordes/]: Loaded entity zombie_extreme:inflated as entity.zombie_extreme.inflated with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.090] [main/INFO] [hordes/]: Loaded entity undead_revamp2:thegliter as entity.undead_revamp2.thegliter with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.090] [main/INFO] [hordes/]: Loaded entity undead_revamp2:thepregnant as entity.undead_revamp2.thepregnant with weight 3, min day 0 and max day 0
+[202월2026 15:08:03.091] [main/INFO] [hordes/]: loaded horde table hordes:mobs_normal_135
+[202월2026 15:08:03.091] [main/INFO] [hordes/]: Loaded entity zombie_extreme:infected_military as entity.zombie_extreme.infected_military with weight 25, min day 0 and max day 0
+[202월2026 15:08:03.091] [main/INFO] [hordes/]: Loaded entity undead_revamp2:bigsucker as entity.undead_revamp2.bigsucker with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.091] [main/INFO] [hordes/]: Loaded entity zombie_extreme:inflated as entity.zombie_extreme.inflated with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.091] [main/INFO] [hordes/]: Loaded entity undead_revamp2:clogger as entity.undead_revamp2.clogger with weight 1, min day 0 and max day 0
+[202월2026 15:08:03.093] [main/INFO] [hordes/]: Loaded entity zombie_extreme:zero_patient as entity.zombie_extreme.zero_patient with weight 1, min day 0 and max day 0
+[202월2026 15:08:03.093] [main/INFO] [hordes/]: Loaded entity zombie_extreme:rat_king as entity.zombie_extreme.rat_king with weight 1, min day 0 and max day 0
+[202월2026 15:08:03.093] [main/INFO] [hordes/]: loaded horde table hordes:mobs_normal_300
+[202월2026 15:08:03.093] [main/INFO] [hordes/]: Loaded entity zombie_extreme:infected_military as entity.zombie_extreme.infected_military with weight 25, min day 0 and max day 0
+[202월2026 15:08:03.093] [main/INFO] [hordes/]: Loaded entity undead_revamp2:bigsucker as entity.undead_revamp2.bigsucker with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.095] [main/INFO] [hordes/]: Loaded entity zombie_extreme:inflated as entity.zombie_extreme.inflated with weight 5, min day 0 and max day 0
+[202월2026 15:08:03.095] [main/INFO] [hordes/]: Loaded entity undead_revamp2:clogger as entity.undead_revamp2.clogger with weight 1, min day 0 and max day 0
+[202월2026 15:08:03.096] [main/INFO] [hordes/]: Loaded entity zombie_extreme:zero_patient as entity.zombie_extreme.zero_patient with weight 1, min day 0 and max day 0
+[202월2026 15:08:03.096] [main/INFO] [hordes/]: Loaded entity zombie_extreme:rat_king as entity.zombie_extreme.rat_king with weight 1, min day 0 and max day 0
+[202월2026 15:08:03.096] [main/INFO] [hordes/]: Loaded entity undead_revamp2:theheavy as entity.undead_revamp2.theheavy with weight 1, min day 0 and max day 0
+[202월2026 15:08:03.097] [main/INFO] [hordes/]: loaded horde table hordes:mobs_normal_345
+[202월2026 15:08:03.100] [main/INFO] [hordes/]: loaded horde script hordes:wave_0_normal_loot_script
+[202월2026 15:08:03.100] [main/INFO] [hordes/]: loaded horde script hordes:wave_0_normal_script
+[202월2026 15:08:03.100] [main/INFO] [hordes/]: loaded horde script hordes:wave_1_normal_loot_script
+[202월2026 15:08:03.101] [main/INFO] [hordes/]: loaded horde script hordes:wave_1_normal_script
+[202월2026 15:08:03.101] [main/INFO] [hordes/]: loaded horde script hordes:wave_2_normal_loot_script
+[202월2026 15:08:03.101] [main/INFO] [hordes/]: loaded horde script hordes:wave_2_normal_script
+[202월2026 15:08:03.101] [main/INFO] [hordes/]: loaded horde script hordes:wave_3_normal_loot_script
+[202월2026 15:08:03.102] [main/INFO] [hordes/]: loaded horde script hordes:wave_3_normal_script
+[202월2026 15:08:03.102] [main/INFO] [hordes/]: loaded horde script hordes:wave_4_normal_loot_script
+[202월2026 15:08:03.102] [main/INFO] [hordes/]: loaded horde script hordes:wave_4_normal_script
+[202월2026 15:08:03.102] [main/INFO] [hordes/]: loaded horde script hordes:wave_5_normal_loot_script
+[202월2026 15:08:03.102] [main/INFO] [hordes/]: loaded horde script hordes:wave_5_normal_script
+[202월2026 15:08:03.103] [main/INFO] [hordes/]: loaded horde script hordes:wave_6_normal_loot_script
+[202월2026 15:08:03.103] [main/INFO] [hordes/]: loaded horde script hordes:wave_6_normal_script
+[202월2026 15:08:03.103] [main/INFO] [hordes/]: loaded horde script hordes:wave_7_normal_loot_script
+[202월2026 15:08:03.103] [main/INFO] [hordes/]: loaded horde script hordes:wave_7_normal_script
+[202월2026 15:08:03.103] [main/INFO] [hordes/]: loaded horde script hordes:wave_8_normal_loot_script
+[202월2026 15:08:03.104] [main/INFO] [hordes/]: loaded horde script hordes:wave_8_normal_script
+[202월2026 15:08:03.104] [main/INFO] [hordes/]: loaded horde script hordes:wave_9_normal_loot_script
+[202월2026 15:08:03.104] [main/INFO] [hordes/]: loaded horde script hordes:wave_9_normal_script
+[202월2026 15:08:03.104] [main/INFO] [hordes/]: loaded horde script hordes:wave_10_normal_loot_script
+[202월2026 15:08:03.104] [main/INFO] [hordes/]: loaded horde script hordes:wave_10_normal_script
+[202월2026 15:08:03.104] [main/INFO] [hordes/]: loaded horde script hordes:wave_11_normal_loot_script
+[202월2026 15:08:03.105] [main/INFO] [hordes/]: loaded horde script hordes:wave_11_normal_script
+[202월2026 15:08:03.105] [main/INFO] [hordes/]: loaded horde script hordes:wave_12_normal_loot_script
+[202월2026 15:08:03.105] [main/INFO] [hordes/]: loaded horde script hordes:wave_12_normal_script
+[202월2026 15:08:03.106] [main/INFO] [hordes/]: loaded horde script hordes:wave_13_normal_loot_script
+[202월2026 15:08:03.107] [main/INFO] [hordes/]: loaded horde script hordes:wave_13_normal_script
+[202월2026 15:08:03.107] [main/INFO] [hordes/]: loaded horde script hordes:wave_14_normal_loot_script
+[202월2026 15:08:03.107] [main/INFO] [hordes/]: loaded horde script hordes:wave_14_normal_script
+[202월2026 15:08:03.107] [main/INFO] [hordes/]: loaded horde script hordes:wave_15_normal_loot_script
+[202월2026 15:08:03.108] [main/INFO] [hordes/]: loaded horde script hordes:wave_15_normal_script
+[202월2026 15:08:03.108] [main/INFO] [hordes/]: loaded horde script hordes:wave_16_normal_loot_script
+[202월2026 15:08:03.108] [main/INFO] [hordes/]: loaded horde script hordes:wave_16_normal_script
+[202월2026 15:08:03.108] [main/INFO] [hordes/]: loaded horde script hordes:wave_17_normal_loot_script
+[202월2026 15:08:03.108] [main/INFO] [hordes/]: loaded horde script hordes:wave_17_normal_script
+[202월2026 15:08:03.110] [main/INFO] [hordes/]: Loading conversion tables
+[202월2026 15:08:03.111] [main/INFO] [hordes/]: Loading conversion table hordes:infection_conversions
+[202월2026 15:08:03.111] [main/INFO] [hordes/]: Loading immunity item list
+[202월2026 15:08:03.111] [main/INFO] [hordes/]: Loading immunity item list hordes:immunity_items
+[202월2026 15:08:03.112] [main/INFO] [hordes/]: Loaded immunity item minecraft:enchanted_golden_apple with duration 120
+[202월2026 15:08:03.112] [main/INFO] [hordes/]: Loaded immunity item minecraft:golden_apple with duration 120
+[202월2026 15:08:03.113] [main/INFO] [hordes/]: Loading wearables protection list
+[202월2026 15:08:03.113] [main/INFO] [hordes/]: Loading wearables protection list hordes:immune_wearables
+[202월2026 15:08:03.113] [main/INFO] [insane96mcp.insanelib.InsaneLib/]: Reloading InsaneLib JsonFeature Json
+[202월2026 15:08:03.161] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: deceasedcraft:wasteland
+[202월2026 15:08:03.225] [main/INFO] [net.werdei.biome_replacer.BiomeReplacer/]: [BiomeReplacer] Loaded 7 rules (7 direct, 0 tag-based) and ignored 0
+[202월2026 15:08:03.226] [main/INFO] [net.werdei.biome_replacer.BiomeReplacer/]: [BiomeReplacer] Skipping minecraft:the_end
+[202월2026 15:08:03.226] [main/INFO] [net.werdei.biome_replacer.BiomeReplacer/]: [BiomeReplacer] Successfully replaced biomes in deceasedcraft:abyss
+[202월2026 15:08:03.263] [main/INFO] [net.werdei.biome_replacer.BiomeReplacer/]: [BiomeReplacer] Successfully replaced biomes in lostworlds:abyss
+[202월2026 15:08:03.300] [main/INFO] [net.werdei.biome_replacer.BiomeReplacer/]: [BiomeReplacer] Successfully replaced biomes in lostcities:lostcity
+[202월2026 15:08:03.300] [main/INFO] [net.werdei.biome_replacer.BiomeReplacer/]: [BiomeReplacer] Successfully replaced biomes in minecraft:the_nether
+[202월2026 15:08:03.337] [main/INFO] [net.werdei.biome_replacer.BiomeReplacer/]: [BiomeReplacer] Successfully replaced biomes in minecraft:overworld
+[202월2026 15:08:03.338] [main/WARN] [ModernFix/]: Initial datapack load took 10.68 s
+[202월2026 15:08:04.345] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[202월2026 15:08:04.346] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[202월2026 15:08:04.346] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[202월2026 15:08:04.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[202월2026 15:08:04.393] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[202월2026 15:08:04.435] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[202월2026 15:08:04.785] [Server thread/INFO] [mcjty.lib.setup.DefaultModSetup/]: Loading fancytrinkets config
+[202월2026 15:08:05.021] [Server thread/INFO] [FTB Teams/]: loaded team data: 1 known players, 1 teams total
+[202월2026 15:08:05.233] [Server thread/INFO] [spark/]: Starting background profiler...
+[202월2026 15:08:05.251] [Server thread/INFO] [spark/]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[202월2026 15:08:05.350] [Server thread/WARN] [mixinsquared-annotation-adjuster/]: Modified mixin "dev.uncandango.alltheleaks.mixin.core.main.VillagesTradelistMixin". Check debug logs for more information.
+[202월2026 15:08:05.366] [Server thread/INFO] [zeta/]: Server starting, accepting filewatcher changes for zeta's config
+[202월2026 15:08:05.481] [Server thread/INFO] [Framework/]: Loading server configs...
+[202월2026 15:08:05.527] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Initializing Open Parties and Claims for the server...
+[202월2026 15:08:05.553] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading server info!
+[202월2026 15:08:05.649] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading player configs...
+[202월2026 15:08:05.711] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded player configs!
+[202월2026 15:08:05.713] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading parties...
+[202월2026 15:08:05.719] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded parties!
+[202월2026 15:08:05.722] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Fixing party inconsistencies...
+[202월2026 15:08:05.836] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered party system for OPAC: default
+[202월2026 15:08:05.837] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered party system for OPAC: ftb_teams
+[202월2026 15:08:05.838] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Registered permission system for OPAC: permission_api
+[202월2026 15:08:05.975] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[202월2026 15:08:06.246] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[202월2026 15:08:06.246] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[202월2026 15:08:06.619] [Server thread/INFO] [incontrol/]: Reading rules from areas.json
+[202월2026 15:08:06.630] [Server thread/INFO] [incontrol/]: Reading rules from spawn.json
+[202월2026 15:08:06.671] [Server thread/INFO] [incontrol/]: Reading rules from summonaid.json
+[202월2026 15:08:06.673] [Server thread/INFO] [incontrol/]: Reading rules from loot.json
+[202월2026 15:08:06.692] [Server thread/INFO] [incontrol/]: Reading rules from experience.json
+[202월2026 15:08:06.695] [Server thread/INFO] [incontrol/]: Reading rules from phases.json
+[202월2026 15:08:06.702] [Server thread/INFO] [incontrol/]: Reading rules from effects.json
+[202월2026 15:08:06.704] [Server thread/INFO] [incontrol/]: Reading rules from breakevents.json
+[202월2026 15:08:06.707] [Server thread/INFO] [incontrol/]: Reading rules from placeevents.json
+[202월2026 15:08:06.709] [Server thread/INFO] [incontrol/]: Reading rules from rightclicks.json
+[202월2026 15:08:06.716] [Server thread/INFO] [incontrol/]: Reading rules from leftclicks.json
+[202월2026 15:08:06.721] [Server thread/INFO] [incontrol/]: Reading rules from spawner.json
+[202월2026 15:08:06.738] [Server thread/INFO] [incontrol/]: Reading rules from events.json
+[202월2026 15:08:06.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[202월2026 15:08:06.829] [Server thread/WARN] [mixin/]: Method overwrite conflict for removeIf in lithium.mixins.json:world.chunk_tickets.SortedArraySetMixin from mod radium, previously written by org.embeddedt.modernfix.common.mixin.bugfix.paper_chunk_patches.SortedArraySetMixin. Skipping method.
+[202월2026 15:08:06.928] [Server thread/WARN] [mixin/]: @Redirect conflict. Skipping mixins.redirected_forge_1.20.1.json:net.minecraft.world.level.block.state.CacheMixin from mod redirected->@Redirect::redirectSupportTypes()[Lnet/minecraft/world/level/block/SupportType; with priority 10, already redirected by modernfix-common.mixins.json:perf.cache_blockstate_cache_arrays.AbstractBlockStateCacheMixin from mod modernfix->@Redirect::getVoxelShapeValues()[Lnet/minecraft/world/level/block/SupportType; with priority 1000
+[202월2026 15:08:07.187] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 105530778 ms
+[202월2026 15:08:07.188] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.480s)! For help, type "help"
+[202월2026 15:08:07.260] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: CustomNPC PermissionNode<Boolean>s available:
+[202월2026 15:08:07.261] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.blocks
+[202월2026 15:08:07.261] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.villager
+[202월2026 15:08:07.261] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.bank
+[202월2026 15:08:07.261] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.dialog
+[202월2026 15:08:07.261] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.faction
+[202월2026 15:08:07.261] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.linked
+[202월2026 15:08:07.261] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.naturalspawn
+[202월2026 15:08:07.261] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.playerdata
+[202월2026 15:08:07.261] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.quest
+[202월2026 15:08:07.261] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.recipe
+[202월2026 15:08:07.261] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.transport
+[202월2026 15:08:07.261] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.advanced
+[202월2026 15:08:07.261] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.ai
+[202월2026 15:08:07.262] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.clone
+[202월2026 15:08:07.262] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.create
+[202월2026 15:08:07.262] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.delete
+[202월2026 15:08:07.262] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.display
+[202월2026 15:08:07.262] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.freeze
+[202월2026 15:08:07.262] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.gui
+[202월2026 15:08:07.262] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.inventory
+[202월2026 15:08:07.262] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.reset
+[202월2026 15:08:07.262] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.stats
+[202월2026 15:08:07.262] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.scenes
+[202월2026 15:08:07.262] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.soulstone.all
+[202월2026 15:08:07.262] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.create
+[202월2026 15:08:07.262] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.mob
+[202월2026 15:08:07.262] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.mounter
+[202월2026 15:08:07.262] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.nbtbook
+[202월2026 15:08:07.264] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.pather
+[202월2026 15:08:07.264] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.scripter
+[202월2026 15:08:07.265] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[202월2026 15:08:07.370] [Server thread/INFO] [puffish_skills/]: [puffish_skills] Mod configuration loaded successfully!
+[202월2026 15:08:07.383] [Server thread/INFO] [xaero.hud.minimap.MinimapLogs/]: Registered synced player tracker system: ftb_teams
+[202월2026 15:08:07.390] [Server thread/INFO] [xaero.map.WorldMap/]: Registered synced player tracker system: ftb_teams
+[202월2026 15:08:07.423] [Server thread/INFO] [com.jkvin114.displaydelight.DisplayDelight/]: HELLO from server starting
+[202월2026 15:08:07.425] [Server thread/INFO] [Diet/]: Generating diet values...
+[202월2026 15:08:07.425] [Server thread/INFO] [Diet/]: Finding ungrouped food items...
+[202월2026 15:08:07.433] [Server thread/INFO] [Diet/]: Found 244 ungrouped food items
+[202월2026 15:08:07.433] [Server thread/INFO] [Diet/]: Building item-to-recipes map...
+[202월2026 15:08:07.465] [Server thread/INFO] [Diet/]: Found 10317 valid items with recipes
+[202월2026 15:08:07.465] [Server thread/INFO] [Diet/]: Processing items...
+[202월2026 15:08:07.470] [Server thread/INFO] [Diet/]: Processed 348 items
+[202월2026 15:08:07.471] [Server thread/INFO] [Diet/]: Generating diet values took 44.92 ms
+[202월2026 15:08:07.471] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loading claims...
+[202월2026 15:08:07.475] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Loaded claims in 4ms
+[202월2026 15:08:07.475] [Server thread/WARN] [xaero.pac.OpenPartiesAndClaims/]: The configured permission system "ftb_ranks" isn't registered!
+[202월2026 15:08:07.475] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following permission system: permission_api
+[202월2026 15:08:07.475] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Configured OPAC to use the following party system as primary: ftb_teams
+[202월2026 15:08:07.483] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[202월2026 15:08:07.630] [Server thread/INFO] [FTB Quests/]: Loading quests from C:\Users\USER\Documents\GitHub\newone\config\ftbquests\quests
+[202월2026 15:08:07.739] [Server thread/INFO] [FTB Quests/]: Loaded 8 chapter groups, 30 chapters, 801 quests, 1 reward tables
+[202월2026 15:08:07.905] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 187296 bytes (in 19 string chunks with the size of 10000)
+[202월2026 15:08:07.917] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[202월2026 15:08:07.946] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 24454
+[202월2026 15:08:08.039] [Server thread/WARN] [ModernFix/]: Dedicated server took 56.846 seconds to load
+[202월2026 15:13:08.263] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[202월2026 15:13:08.263] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[202월2026 15:13:08.263] [Server thread/INFO] [AllTheLeaks/]: Waiting to stabilize [1/10]
+[202월2026 15:13:08.263] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[202월2026 15:16:27.857] [Netty Server IO #1/WARN] [mixin/]: @ModifyConstant conflict. Skipping packetfixer.v1_19_4.forge.mixins.json:v1_19_4_forge.PacketEncoderMixin from mod packetfixer->@ModifyConstant::packetfixer$newSize(I)I with priority 1000, already redirected by connectivity.mixins.json:PacketEncoderMixin from mod connectivity->@ModifyConstant::modifyLimit(ILio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/protocol/Packet;Lio/netty/buffer/ByteBuf;)I with priority 1000
+[202월2026 15:16:29.391] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player MakeYouAFemale is ac3f80cb-89d5-428f-b999-b58910a92731
+[202월2026 15:16:32.856] [Netty Server IO #1/WARN] [mixin/]: @ModifyConstant conflict. Skipping packetfixer.v1_19_4.forge.mixins.json:v1_19_4_forge.CompressionEncoderMixin from mod packetfixer->@ModifyConstant::packetfixer$newSize(I)I with priority 1000, already redirected by connectivity.mixins.json:CompressionEncoderMixin from mod connectivity->@ModifyConstant::modifyLimit(I)I with priority 1000
+[202월2026 15:16:32.856] [Netty Server IO #1/WARN] [mixin/]: @ModifyConstant conflict. Skipping packetfixer.v1_19_4.forge.mixins.json:v1_19_4_forge.CompressionEncoderMixin from mod packetfixer->@ModifyConstant::packetfixer$newSize(I)I with priority 1000, already redirected by connectivity.mixins.json:CompressionEncoderMixin from mod connectivity->@ModifyConstant::modifyLimit(I)I with priority 1000
+[202월2026 15:16:33.120] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MakeYouAFemale[/172.22.48.211:59952] logged in with entity id 5 at (-861.5, 77.0, -840.5)
+[202월2026 15:16:33.339] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player MakeYouAFemale
+[202월2026 15:16:33.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MakeYouAFemale joined the game
+[202월2026 15:16:33.796] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for ac3f80cb-89d5-428f-b999-b58910a92731
+[202월2026 15:16:46.781] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player BishopGod is 729734de-8128-41c7-9e93-5e911076524b
+[202월2026 15:16:50.327] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: BishopGod[/172.22.192.117:59794] logged in with entity id 1627 at (-860.5, 80.0, -843.5)
+[202월2026 15:16:50.345] [Server thread/INFO] [ModernFix/]: Using enhanced recipe sync for player BishopGod
+[202월2026 15:16:50.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BishopGod joined the game
+[202월2026 15:16:50.413] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 729734de-8128-41c7-9e93-5e911076524b
+[202월2026 15:16:50.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BishopGod has made the advancement [Master Urban Explorer]
+[202월2026 15:16:50.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BishopGod has made the advancement [Suburban House - B]
+[202월2026 15:16:51.070] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of BishopGod (18)
+[202월2026 15:16:51.072] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to BishopGod
+[202월2026 15:16:51.080] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 729734de-8128-41c7-9e93-5e911076524b was loaded
+[202월2026 15:16:51.081] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [BishopGod]
+[202월2026 15:16:51.081] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [BishopGod]
+[202월2026 15:16:54.103] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of MakeYouAFemale (18)
+[202월2026 15:16:54.104] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to MakeYouAFemale
+[202월2026 15:16:54.108] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of ac3f80cb-89d5-428f-b999-b58910a92731 was loaded
+[202월2026 15:16:54.110] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [MakeYouAFemale]
+[202월2026 15:16:54.110] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [MakeYouAFemale]
+[202월2026 15:16:56.307] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player 729734de-8128-41c7-9e93-5e911076524b
+[202월2026 15:16:57.307] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player 729734de-8128-41c7-9e93-5e911076524b
+[202월2026 15:16:57.312] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player BishopGod (729734de-8128-41c7-9e93-5e911076524b) successfully connected to voice chat
+[202월2026 15:16:59.140] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully authenticated player ac3f80cb-89d5-428f-b999-b58910a92731
+[202월2026 15:17:00.151] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Successfully validated connection of player ac3f80cb-89d5-428f-b999-b58910a92731
+[202월2026 15:17:00.152] [VoiceChatPacketProcessingThread/INFO] [voicechat/]: [voicechat] Player MakeYouAFemale (ac3f80cb-89d5-428f-b999-b58910a92731) successfully connected to voice chat
+[202월2026 15:17:06.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MakeYouAFemale has made the advancement [Suburban House - E]
+[202월2026 15:17:20.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BishopGod was slain by MakeYouAFemale
+[202월2026 15:17:21.723] [Server thread/ERROR] [AllTheLeaks/]: Cannot have null removal reason on Clone event!
+[202월2026 15:17:21.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: No player was found
+[202월2026 15:17:21.784] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BishopGod has made the advancement [Suburban House - E]
+[202월2026 15:17:21.814] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Sent Server Limitation of [BishopGod]
+[202월2026 15:17:21.815] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Received Client Information of [BishopGod]
+[202월2026 15:17:27.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BishopGod has made the advancement ['X' Marks the Spot]
+[202월2026 15:17:32.799] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MakeYouAFemale lost connection: Disconnected
+[202월2026 15:17:32.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MakeYouAFemale left the game
+[202월2026 15:17:32.802] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of ac3f80cb-89d5-428f-b999-b58910a92731 was unloaded
+[202월2026 15:17:32.808] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client MakeYouAFemale
+[202월2026 15:17:32.809] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for ac3f80cb-89d5-428f-b999-b58910a92731
+[202월2026 15:17:44.997] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: BishopGod lost connection: Disconnected
+[202월2026 15:17:44.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: BishopGod left the game
+[202월2026 15:17:44.998] [Server thread/INFO] [com.alrex.parcool.ParCool/]: Limitation of 729734de-8128-41c7-9e93-5e911076524b was unloaded
+[202월2026 15:17:44.999] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client BishopGod
+[202월2026 15:17:44.999] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Updating all forceload tickets for 729734de-8128-41c7-9e93-5e911076524b
+[202월2026 15:17:45.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[202월2026 15:17:45.798] [Server thread/INFO] [AllTheLeaks/]: Method invalidateAll at mixin dev.uncandango.alltheleaks.mixin.core.main.FakeLevelManagerMixin cancelled due to not matching hash: Actual -2034214357, Expected: [-1241170928]
+[202월2026 15:17:45.798] [Server thread/INFO] [AllTheLeaks/]: Mixin annotation @Lcom/llamalad7/mixinextras/injector/wrapoperation/WrapOperation;(at={@Lorg/spongepowered/asm/mixin/injection/At;(args={}, value="INVOKE", target="Ljava/util/Map;values()Ljava/util/Collection;")}, method={}, slice={}) at mixin dev.uncandango.alltheleaks.mixin.core.main.FakeLevelManagerMixin removed due to no methods available
+[202월2026 15:17:45.798] [Server thread/WARN] [mixinsquared-annotation-adjuster/]: Modified mixin "dev.uncandango.alltheleaks.mixin.core.main.FakeLevelManagerMixin". Check debug logs for more information.
+[202월2026 15:17:45.807] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[202월2026 15:17:45.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[202월2026 15:17:45.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[202월2026 15:17:45.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[202월2026 15:17:45.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[202월2026 15:17:45.851] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/deceasedcraft:abyss
+[202월2026 15:17:45.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/lostworlds:abyss
+[202월2026 15:17:45.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/lostcities:lostcity
+[202월2026 15:17:45.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[202월2026 15:17:46.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[202월2026 15:17:46.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[202월2026 15:17:46.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abyss): All chunks are saved
+[202월2026 15:17:46.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (abyss): All chunks are saved
+[202월2026 15:17:46.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (lostcity): All chunks are saved
+[202월2026 15:17:46.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[202월2026 15:17:46.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[202월2026 15:17:46.387] [Immersive Optimization Worker/INFO] [Immersive Optimization/]: Shutting down Immersive Optimization worker
+[202월2026 15:17:46.388] [Server thread/INFO] [Framework/]: Unloading server configs...
+[202월2026 15:17:46.390] [Server thread/INFO] [Framework/]: Sending config unload event for refurbished_furniture.server.toml
+[202월2026 15:17:46.392] [Server thread/INFO] [Framework/]: Sending config unload event for cfm_wap.server.toml
+[202월2026 15:17:46.392] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[202월2026 15:17:46.400] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopping IO worker...
+[202월2026 15:17:46.406] [Server thread/INFO] [xaero.pac.OpenPartiesAndClaims/]: Stopped IO worker!

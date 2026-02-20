@@ -1,0 +1,17 @@
+{
+	id: "ac3f80cb-89d5-428f-b999-b58910a92731"
+	type: "player"
+	player_name: "MakeYouAFemale"
+	ranks: {
+		ac3f80cb-89d5-428f-b999-b58910a92731: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "MakeYouAFemale"
+		"ftbteams:description": ""
+		"ftbteams:color": "#DD59FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
